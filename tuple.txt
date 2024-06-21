@@ -1,0 +1,1266 @@
+20	username	User name
+21	password	Password
+22	login	Login
+23	copyright	Copyright &copy; 2007 CalemEAM Inc. All rights reserved.
+24	login_err	Please enter both User name and Password to log in.
+25	calemeam_title	CalemEAM - Open Source CMMS/EAM
+26	login_reqd	The only action allowed is login. Action cancelled.
+27	splash_wait_text	Loading...
+28	language	Language
+30	installation_not_deleted	The <b>installation</b> directory is not deleted. It is a safety issue. You must have the <b>installation</b> directory deleted before using CalemEAM.
+32	exit_calemeam	CalemEAM will log you out when you confirm. Select Cancel to continue use CalemEAM.
+37	SF_InvalidLogin	Login failed. Please check your user name/password and try again.
+38	SF_NoActiveSession	Your session is no longer valid on server. You will be logged out.
+39	SF_Unknown	An error happened in the server. Please contact your system admin.
+42	modCalemWo	Work order
+43	modCalemAsset	Asset
+44	modCalemPm	PM
+45	modCalemIn	Inventory
+46	modCalemPo	Purchase
+47	modCalemAdmin	Admin
+48	modCalemBudget	Budget
+49	modCalemHome	Home
+50	modCalemDoc	Document
+51	modCalemSched	Schedule
+52	modCalemRcm	RCM
+53	modCalemInspection	Inspection
+54	modCalemContact	Contact
+55	modCalemContract	Contract
+56	modCalemVendor	Vendor
+57	modCalemProject	Project
+58	modCalemTraining	Training
+59	modCalemReq	Requisition
+60	modCalemDash	Dashboard
+62	txtCalemMore	More
+65	tab_close	Close
+68	button_select	Select
+69	button_close	Close
+72	form_close_title	Close form
+73	form_close_prompt	The changes will be lost when the form is closed. Press Yes to close the form.
+74	form_delete_title	Delete data
+75	form_delete_prompt	The selected data will be permanently deleted. Press Yes to delete the data.
+76	form_save_title	Save data
+77	form_save_conflict	The record has been updated by others. Your changes were not applied. The record is refreshed.
+78	form_save_deleted	The record you changed cannot be found in server. It might have been deleted by others.
+79	form_new_title	Create data
+81	delete_dependency_no_del	The data cannot be deleted. It is referenced by {0} ({1}).
+84	soap_busy	Contacting server...
+87	error_key_duplication	The key fields {0} are duplicated. Please correct the fields and try again.
+88	error_native_label	Native error: {0}
+89	error_default	An unknown error happened in making data changes to the server. Please contact your system admin.
+90	error_server	Server error
+91	error_data_not_found	Data cannot be found for the request.
+94	menu_form	Form
+95	menu_procedure	Procedure
+96	menu_report	Report
+97	menu_configuration	Settings
+100	menu_new	New
+101	menu_open	Open
+102	menu_edit	Edit
+103	menu_save	Save
+104	menu_cancel	Cancel
+105	menu_delete	Delete
+106	menu_print	Print
+107	menu_print_customize	Customize
+108	menu_prev	Previous
+109	menu_next	Next
+110	menu_select	Select
+111	menu_customize	Customize
+112	menu_customize_reset	Reset
+113	menu_search	Search
+114	menu_search_clear	Clear search
+115	menu_refresh	Refresh
+116	menu_apply	Apply
+117	menu_apply_save	Apply & save
+118	menu_export_excel	Export
+121	menu_logout	Sign out
+122	menu_help	Help
+125	USD	US dollar
+126	CAD	Canadian dollar
+127	MXN	Mexican peso
+130	form_error	There are errors in the form. Please correct the errors and try again.
+131	lookup_invalid	The field value for the lookup is not valid.
+132	field_invalid	The field value is invalid.
+135	at_time	At
+138	schedule_weekly	Weekly
+139	schedule_weeks	Every weeks
+140	schedule_months	Every months
+141	schedule_days	Every days
+142	schedule_on	on
+144	dow_short_mon	Mon
+145	dow_short_tue	Tue
+146	dow_short_wed	Wed
+147	dow_short_thu	Thur
+148	dow_short_fri	Fri
+149	dow_short_sat	Sat
+150	dow_short_sun	Sun
+152	dow_long_mon	Monday
+153	dow_long_tue	Tuesday
+154	dow_long_wed	Wedesday
+155	dow_long_thu	Thursday
+156	dow_long_fri	Friday
+157	dow_long_sat	Satday
+158	dow_long_sun	Sunday
+160	schedule_w1	First
+161	schedule_w2	Second
+162	schedule_w3	Third
+163	schedule_w4	Fouth
+164	schedule_wl	Last
+166	schedule_start	Start from
+167	schedule_until	Until
+168	schedule_start_time	Start time
+169	schedule_repeat	Repeat
+170	schedule_every	Every
+171	schedule_minutes	minutes
+172	schedule_hours	hours
+174	schedule_weekly_text	Every week on {0}
+175	schedule_weeks_text	Every {0} weeks on {1}
+176	schedule_months_text	Every {0} months on {1} {2}
+177	schedule_days_text	Every {0} days
+179	schedule_dates_from	from {0}
+180	schedule_dates_till	until {0}
+181	schedule_dates_from_till	from {0} until {1}
+183	schedule_time_start	Start at {0}
+184	schedule_time_start_end	Start at {0} till {1}
+185	schedule_time_minutes	every {0} minutes
+186	schedule_time_hours	every {0} hours
+187	schedule_time_full	{0}, {1}
+191	form_design	Form design
+192	form_error_row	(Error message row)
+193	row	(Row)
+194	separator	(Separator)
+195	col	(Cell)
+196	blank_row	Row
+197	toolbar	Tool bar
+198	table_extension	Custom fields
+199	caption	Caption
+200	save_to	Save to:
+201	grid_design	Grid design
+203	CALEM_OOB	(CalemEAM)
+204	CUSTOM_SYSTEM	(Custom system)
+206	last_visible_grid_field	Cannot remove last grid field.
+207	done	Done
+209	CUSTOMIZE_TAB	Customize
+211	form_tab	Form tab
+212	form	Form
+214	fixed	(Fixed)
+215	scheduler_job_list	Job list
+218	search_select	Select search
+219	my_search	My search:
+220	shared_search	Shared search:
+221	no_saved_search	(No saved search)
+222	save_search	Save search:
+223	save_search_field	Save search (field)
+224	search_as	As:
+226	search_mine	My search
+227	search_group	Shared by my group
+228	search_system	Shared by everyone
+230	no_selection	(No selection)
+231	search_not_valid	The search is not valid. Please correct the errors.
+236	id	Id
+241	welcome_no_time	Welcome, {0}
+242	welcome_with_time	Welcome, {0}. Your local time is {1}.
+244	datetime_not_valid	Datetime is not valid.
+246	boolean_true	Checked
+247	boolean_false	Not checked
+249	new_no_parent	The data cannot be created without a valid parent record. Please create a parent record first.
+251	data_refresh	Refresh data
+256	admin_codes	Codes
+257	admin_scheduler	Scheduler
+258	admin_upgrade	Upgrade
+260	tab_scheduler_job_main	Main
+261	tab_scheduler_job_log	Job runs
+263	data_design	Data design
+264	table_design	Table design
+265	dropdown_design	Dropdown design
+266	my_account	My account
+267	group_acl_design	Group design
+269	module_design	Module design
+270	module_list_customize	Modules accessible
+271	module_customize	Module design
+273	table_customize	Customize table
+274	dropdown_customize	Customize dropdown
+276	menu_node	Menu node
+277	menu_item	Menu item
+279	drop_for_design	Drop for item design
+280	default_menu	Default menu item
+281	module_layout	Module layout
+283	field_add	Add field
+284	field_delete	Delete field
+285	field_name_change	Change name
+286	field_type_change	Change type
+288	dropdown_add	Add dropdown
+289	dropdown_edit	Edit dropdown
+290	dropdown_delete	Delete dropdown
+292	field_name_invalid	Field name is not valid. It must consist of letters, digits, underscores and up to 30 characters.
+293	field_length_invalid	Field length is required for Varchar type. The length must be from 1 to 4000.
+294	field_name_duplicate	Field name has been used in this table. Use a different name.
+296	field_delete_title	Delete field
+297	field_delete_prompt	The custom field and its data will be permanently deleted. Press Yes to delete it.
+299	dropdown_delete_title	Delete dropdown
+300	dropdown_delete_prompt	The dropdown entry will be permanently deleted. Press Yes to delete it.
+302	communication	Communication
+303	address	Address
+304	access_rights	Access rights
+305	purchase	Purchase
+306	job	Job
+307	last_changes	Last changes
+308	retype	Retype
+309	retype_back	(retype)
+310	retype_error	Password and retype are not the same
+312	label_edit	Edit label
+315	search_admin	Search admin
+316	search_admin_none	No admin
+317	search_admin_group	Group admin
+318	search_admin_system	System admin
+321	dept	Department
+322	manager_id	Manager
+325	acl_group	Group
+326	parent_group_id	Parent group
+328	child_group_not_empty	There are child groups for this group. This group cannot be deleted.
+329	group_users_not_empty	There are users in this group. This group cannot be deleted.
+330	built_in_group_no_deletion	This is a built-in group, it cannot be deleted.
+333	im_type	IM
+334	im_yahoo	Yahoo
+335	im_skype	Skype
+336	im_msn	MSN
+337	im_aol	AOL
+340	job_role	Job role
+341	eam_staff	EAM staff
+343	job_eam_tech	EAM - Technician
+344	job_eam_supervisor	EAM - Supervisor
+345	job_eam_plannner	EAM - Planner
+346	job_eam_support	EAM - Support
+347	job_operations	Operations
+348	job_other	Other
+351	locale	Locale
+354	team	Team
+355	lead_id	Lead
+358	users	Users
+359	user	User
+360	emp_no	Employee no.
+361	login_allowed	Login allowed?
+362	full_name	Full name
+363	job_title	Job title
+364	supervisor_id	Supervisor
+365	phone_work	Work phone
+366	phone_home	Home phone
+367	phone_mobile	Mobile phone
+368	email_work	Work email
+369	email_other	Other email
+370	im1_id	IM Id
+371	im2_id	IM Id
+372	fax	Fax
+373	company	Company
+374	street1	Street
+375	street2	Street 2
+376	city	City
+377	state	State
+378	zip	Zip
+379	country	Country
+382	scheduler_task	Tasks
+383	task	Task
+384	scheduler_task_note	Note
+385	class_name	Class
+386	class_path	Class path
+389	scheduler_job	Jobs
+390	scheduler_job_note	Note
+391	is_active	Active
+392	start_seq	Seq
+393	release_time	Release time
+394	release_day	Release days
+395	time_due	Time due
+398	scheduler_job_log	Job run
+399	scheduler_time_taken	Time taken
+400	results	Result
+403	semaphore	Semaphore
+404	expire_time	Time to expire
+407	user_type	User type
+408	ut_maint_staff	Maintenance staff
+409	ut_other_staff	Other Staff
+410	ut_contractor	Contractor
+411	ut_customer	Customer
+412	ut_partner	Partner
+413	ut_other	Other
+416	user_status	Status
+417	us_active	Active
+418	us_transferred	Transferred
+419	us_departed	Departed
+422	version_status	Status
+423	vs_started	Started
+424	vs_upgraded	Upgraded
+425	vs_failed	Failed
+428	version	Version
+429	vid	Version Id
+430	note	Note
+431	props	Properties
+434	version_upgrade_log	Upgrade history
+435	vid	Version Id
+436	ver_note	Note
+437	prev_vid	Prev version Id
+438	prev_ver_note	Prev version note
+439	prev_props	Prev properties
+440	upgrade_note	Upgrade note
+441	upgrade_log	Logs
+447	tab_asset_main	Main
+448	tab_asset_downtime	Downtime
+449	tab_asset_meter	Meter
+450	tab_asset_part	Part
+451	tab_asset_depreciation	Depreciation
+452	tab_asset_comment	Comment
+453	tab_asset_contract	Contract
+454	tab_asset_misc	Misc
+456	sec_asset_warranty	Warranty
+457	sec_asset_depreciation	Depreciation
+458	sec_asset_codes	Codes
+459	sec_asset_cost	Cost
+461	view_meter_reading_history	Reading history
+462	add_meter_reading	Add reading
+463	asset_view_service_log	Service log
+464	asset_view_activity_log	Activity log
+465	asset_view_asset_child	Child asset
+466	asset_view_asset_location_child	Asset at location
+468	asset_list	Asset list
+469	asset_codes	Codes
+470	asset_report_list	Asset list report
+472	asset_meter_select	Select meter
+474	asset_child	Child asset
+475	asset_loc_child	Asset at location
+478	asset	Asset
+479	asset_no	Asset no.
+480	weight	Weight
+481	weight_uom_id	Weight unit
+482	serial_no	Serial no.
+483	purchase_date	Purchase date
+484	original_cost	Original cost
+485	warranty_start_date	Warranty start
+486	warranty_end_date	Warranty end
+487	maint_labor_hours	Maintenance labor hrs
+488	maint_labor_cost	Maintenance labor cost
+489	maint_material_cost	Maintenance material cost
+490	maint_cost	Maintenance cost
+491	rollup_cost	Rollup cost
+492	depreciation_start	Depreciation start
+493	depreciation_rate	Depreciation rate
+494	depreciation_time_id	Depreciation interval
+495	parent_asset	Parent asset
+496	location_asset	Location asset
+497	owner_user_id	Owner user
+498	asset_photo	Asset photo
+499	asset_description	Description
+502	asset_downtime	Asset downtime
+503	start_time	Start time
+504	end_time	End time
+505	hours	Hours
+506	reported_by_id	Reported by
+507	reported_time	Reported at
+510	asset_meter	Asset meter
+511	meter_no	Meter no.
+512	reading_uom_id	Reading unit
+513	reading	Reading
+514	time_taken	Time taken
+515	rollover_type_id	Rollover type
+516	rollover_count	Rollover count
+519	asset_part	Asset part
+520	asset_part_qty	Qty
+523	asset_depreciation	Asset depreciation
+524	start_value	Start value
+525	depreciation	Depreciation
+526	end_value	End value
+529	asset_comment	Asset comment
+532	meter_transaction	Meter reading
+533	read_by_id	Read by
+534	is_rollover	Is rollover
+535	tran_voided	Transaction cancelled
+536	new_tran_id	New transaction
+537	void_time	Void time
+538	void_by_id	Void by
+541	manufacturer	Manufacturer
+542	manufacturer_list	Manufacturer
+543	contact_name	Contact name
+546	Downtime_unit_cost	Downtime unit cost
+547	hourly_rate	Hourly rate
+550	meter_type	Meter type
+551	type_meter	Type
+552	meter_type_list	Meter type
+553	rollover_reading	Rollover reading
+556	asset_type	Asset type
+557	type_asset	Type
+558	asset_type_list	Asset type
+561	asset_service_log	Service log
+562	to_location_id	New location
+563	from_location_id	Prev. location
+564	to_parent_id	New Parent
+565	from_parent_id	Prev. Parent
+566	to_owner_id	New owner
+567	from_owner_id	Prev. owner
+570	asset_contract	Contract
+574	asset_category	Asset category
+575	as_cat_equipment	Equipment
+576	as_cat_building	Building
+577	as_cat_system	System
+578	as_cat_location	Location
+581	asset_part_type	Asset part type
+582	as_part_major	Major
+583	as_part_routine	Routine
+586	asset_priority	Asset priority
+587	as_pri_critical	Critical
+588	as_pri_production	Production
+589	as_pri_nonproduction	Non-production
+592	asset_status	Asset status
+593	as_status_inservice	In service
+594	as_status_inrepair	In repair
+595	as_status_scrapped	Scrapped
+598	depreciation_type	Depreciation type
+599	as_dep_straightline	Straight line
+600	as_dep_other	Other
+603	depreciation_time	Depreciation time
+604	as_dep_annual	Annually
+605	as_dep_quarter	Quarterly
+607	duration_days	Days
+610	downtime_type	Downtime Type
+611	as_dt_emergency	Emergency
+612	as_dt_pm	Planned maintenance
+613	as_dt_project	Project
+614	as_dt_other	Other
+617	downtime_cause	Downtime cause
+618	as_dc_operationerr	Operation
+619	as_dc_maintenanceerr	Maintenance
+620	as_dc_other	Other
+623	meter_rollup_type	Meter rollup
+624	as_mrt_none	None
+625	as_mrt_rollupchange	Rollup Change
+631	modCalemBudget	Budget
+633	form_budget_edit	Edit budget
+634	form_budget_delete	Delete budget
+635	budget_reopen_not_closed	The state of the budget is not closed. It cannot be reopened.
+636	budget_closed_no_edit	The budget is closed. You must reopen it to edit.
+638	form_budget_update	Update budget
+639	budget_closed_no_update	The budget is closed. You must reopen it to update.
+641	budget_not_empty	This budget title has budget records and cannot be deleted. Please delete budget records first.
+643	budget_invalid_dates_exception	The start and end dates of the budget are not valid. The actual budget cannot be calculated.
+646	menu_budget_update_actual	Update actual
+649	budget_list	Budget list
+652	state_budget	State
+653	budget	Budget
+654	budgeted	Budgeted
+655	app	EAM
+656	accounting	Accounting
+659	budget_status_log	Status log
+660	budget_reopen_budget	Reopen
+661	budget_view_status_log	Status log
+664	budget_title	Budget title
+665	start_date	Start date
+666	end_date	End date
+667	note	Note
+669	invalid_start_end_date	Start date must be before the End Date.
+672	costcode	Cost code
+673	rollup_cost	Rollup cost
+674	costcode_parent	Parent code
+677	cost_type	Cost type
+678	cost_employee_labor	Employee
+679	cost_contractor_labor	Contractor labor
+680	cost_labor	Labor
+681	cost_internal_material	Internal Material
+682	cost_contractor_material	Contractor Material
+683	cost_material	Material
+684	cost_training	Training
+685	cost_operations	Operations
+686	cost_other	Other
+689	budget_state	State
+691	budget_state_open	Open
+692	budget_state_reopen	Reopen
+693	budget_state_closed	Closed
+697	currency	Currency
+698	currency_no	Currency
+704	contact	Contact
+705	type_id	Type
+708	contact_type	Type
+709	cnt_vendor	Vendor
+710	cnt_manufacturer	Manufacturer
+711	cnt_partner	Partner
+712	cnt_tenant	Tenant
+713	cnt_other	Other
+718	tab_vendor_main	Main
+719	tab_vendor_contact	Contact
+720	tab_vendor_misc	Misc
+722	tab_contract_main	Main
+723	tab_contract_misc	Misc
+724	tab_contract_contact	Contact
+725	tab_contract_doc	Document
+727	vendor_list	Vendor list
+728	contract_list	Contract list
+731	vendor	Vendor
+732	vendor_address	Address
+733	contact_id	Contact
+734	vendor_comment	Comment
+737	vendor_contact	Contact
+740	contract	Contract
+741	contract_comment	Comment
+744	contract_contact	Contact
+747	contract_doc	Document
+750	vendor_status	Status
+751	vds_active	Active
+752	vds_inactive	Inactive
+755	contract_status	Status
+756	cs_valid	Valid
+757	cs_expired	Expired
+758	cs_cancelled	Cancelled
+761	contract_type	Contract type
+762	ct_sla	SLA
+763	ct_oem	OEM
+764	ct_other	Other
+770	dash_title	Dashboard
+771	tab_dash	Main
+772	peer_tab_col	Column
+774	dash_wo_orig_day	Daily WO Count by Origination
+775	dash_wo_orig_md	Monthly WO Count by Origination
+776	dash_wo_status_pie	WO Count by Status
+777	dash_wo_age_pri	WO Age by Priority
+780	wo_age_pri_1w_less	less than 1 week
+781	wo_age_pri_1w	1 week
+782	wo_age_pri_2w	2 weeks
+783	wo_age_pri_3w	3 weeks
+784	wo_age_pri_4w	4 or more weeks
+786	wo_pri_null	Null priority
+791	menu_upload_view	View file
+792	menu_attachment_view	View file
+794	upload_busy	Uploading file to server...
+795	tab_doc	Main
+797	document	Document
+798	document_list	Document list
+800	content	Content
+803	doc_type	Doc type
+804	type_doc	Type
+807	doc_attachment	Attachment
+810	doc_upload	Uploaded files
+811	file_upload	File
+813	doc_access_type	Access type
+814	doc_access_public	Public
+815	doc_access_app	Application
+820	tab_ins_main	Main
+821	tab_ins_citation	Citation
+823	inspection_list	Inspection list
+826	inspection	Inspection
+827	inspection_type	Type
+828	inspect_contact_id	Inspection contact
+829	inspect_user_id	Inspection user
+832	ins_citation	Citation
+833	citation	Citation
+834	severity_id	Severity
+838	ins_type	Ins. type
+840	ins_type_osha	OSHA
+841	ins_type_epa	EPA
+842	ins_type_other	Other
+845	ins_citation_severity	Citation severity
+847	ins_cs_major	Major
+848	ins_cs_minor	Minor
+853	tab_in_main	Main
+854	tab_in_stock	Stock
+855	tab_in_doc	Document
+856	tab_in_tran	Transaction
+857	tab_in_vendor	Vendor
+858	tab_in_reserved	Reserved
+859	tab_in_audit	Audit
+860	tab_in_misc	Misc
+862	in_tb_checkout	Check out
+863	in_tb_return	Return
+864	in_tb_receive	Receive
+865	in_tb_physical	Physical count
+866	in_tb_move	Move
+867	in_tb_checkin	Check in
+869	in_tb_gen_order_req	Create requisition
+870	in_order_list	Order list
+871	in_order_gen_new	Create order
+873	inventory_tool	Tools
+874	inventory_part	Parts
+876	lb_reorder	Reorder
+877	in_codes	Codes
+878	in_stock_level	Stock level
+880	in_stock_qty_not_zero	Stock qty is not zero at this location. This record cannot be deleted.
+881	in_no_stock_no_checkout	There are no items at this location, cannot perform a checkout.
+882	in_no_stock_to_move	There are no items at this location, cannot perform a stock move transaction.
+884	in_stock_select	Select stock
+887	inventory_list	Inventory list
+888	inventory	Inventory
+890	in_no	Item no.
+891	type_in	Type
+892	abc_time	Last ABC updated
+893	avg_unit_cost	Avg. unit cost
+894	rent_rate	Rent rate
+895	rent_uom_id	Rent Uom
+896	qty_in_stock	Qty in stock
+897	qty_on_order	Qty on order
+898	qty_reserved	Qty reserved
+899	qty_to_order	Qty to order
+900	min_level	Min
+901	max_level	Max
+902	reorder_point	Reorder point
+903	reorder_qty	Reorder qty
+904	in_order_notification	Order notification
+905	in_description	Description
+908	in_stock	Stock
+909	location_id	Location
+912	in_reserved	Reserved
+915	in_doc	Document
+918	in_comment	Comment
+921	in_audit	Audit
+924	in_vendor	Vendor
+926	vendor_part_no	Vender part no.
+927	is_primary	Is primary
+928	unit_cost	Unit cost
+929	unit_cost_lc	Unit cost
+930	lead_time_days	Lead time (days)
+933	in_location	Stock location
+934	location	Location
+935	parent_id	Parent location
+938	in_tran	Transaction
+940	checkout_to_id	Checkout to id
+941	receive_from_id	Receive from id
+942	qty_available	Qty available
+943	qty_orig	Orig. qty
+944	orig_loc_id	Orig. location
+945	checkout_tran_id	Checkout tran. id
+946	rent_duration	Rent duration
+947	tran_total	Tran. total
+948	tran_time	Tran. time
+949	tran_user_id	Tran. user
+950	store_user_id	Store user
+951	voided	Voided
+952	authorized_by_id	Authorized by
+953	void_by_id	Voided by
+954	void_time	Time voided
+955	void_note	Void note
+956	new_tran_id	New tran. id
+959	in_tran_worksheet	Tran. worksheet
+963	in_type	Inventory type
+966	uom	Unit of measure
+967	uom_fld	Uom
+970	uom_map	Uom conversion
+971	uom_src_id	Uom
+972	uom_dst_id	To Uom
+975	in_order_type	Order type
+977	in_order_none	No reorder
+978	in_order_minmax	Min max
+979	in_order_rp	Reorder point
+980	in_order_demand	On demand
+983	in_category	Category
+985	icg_part	Part
+986	icg_tool	Tool
+989	in_notification	Notification
+990	in_notify_none	None
+991	in_notify_email	Email
+992	in_notify_sms	SMS
+995	in_order_gen	Order creation
+996	inog_manual	Manual
+997	inog_auto	Automatic
+1000	in_valuation_type	Valuation type
+1002	inv_avg	Average cost
+1003	inv_fifo	FIFO
+1004	inv_lifo	LIFO
+1007	in_checkout_to	Checkout to
+1009	ict_wo	Work order
+1010	ict_user	User
+1011	ict_asset	Asset
+1012	ict_project	Project
+1015	in_tran_type	Transaction type
+1017	itt_checkout	Checkout
+1018	itt_return	Return
+1019	itt_receive	Receiving
+1020	itt_physical	Physical count
+1021	itt_move	Move
+1022	itt_checkin	Checkin
+1025	in_receive_from	Receive from
+1027	irf_po	Purchase order
+1028	irf_credit	Credit card purchase
+1029	irf_other	Other
+1032	in_stock_type	Stock type
+1033	ist_stock	Stock
+1034	ist_non_stock	None-stock
+1035	ist_other	Other
+1038	in_abc	ABC class
+1039	in_abc_a	A
+1040	in_abc_b	B
+1041	in_abc_c	C
+1044	in_vt_checkout_loc	Checkout
+1045	checkout_to	Checkout to
+1046	stock_qty	Stock qty
+1047	checkout_user	Checkout user
+1049	in_vt_return_checkout_to	Return
+1050	return_from	Return from
+1051	return_user	Return user
+1053	in_vt_return_part	Return part
+1054	in_tran_checkout	Checkout tran.
+1055	qty_to_return	Qty to return
+1056	qty_checked_out	Qty checked out
+1057	checkout_note	Checkout note
+1059	in_vt_return_tool	Return tool
+1060	checkout_time	Checkout time
+1061	return_time	Return time
+1062	rent_total	Rent cost
+1063	rent_hours	Rent hours
+1065	in_vt_physical	Physical count
+1066	qty_new	New qty
+1067	user_counted	User counted
+1069	in_vt_move	Stock move
+1070	qty_to_move	Qty to move
+1071	loc_to_move	Move to
+1072	user_moved	User moved
+1074	in_vt_checkin	Checkin
+1075	qty	Qty
+1077	in_vt_receive_select	Receive from
+1079	in_vt_receive	Receive info
+1080	receipt_no	Receipt no.
+1081	qty_to_receive	Qty to receive
+1083	in_vt_receive_qty	Receive to stock
+1084	qty_to_receive	Qty to receive
+1085	qty_remaining	Qty remaining
+1087	in_vt_qty_checkout	Checkout qty
+1088	qty_to_checkout	Qty to checkout
+1094	view_meter_schedule	Meter schedule
+1095	view_pm_season	PM season
+1097	pm_list	PM list
+1098	pm_lookup	PM lookup
+1100	tab_pm_main	Main
+1101	tab_pm_asset	Asset
+1102	tab_pm_labor	Labor
+1103	tab_pm_material	Material
+1104	tab_pm_step	Step
+1105	tab_pm_downtime	Downtime
+1106	tab_pm_audit	Audit
+1107	tab_pm_dependency	Dependency
+1108	tab_pm_document	Document
+1109	tab_pm_misc	Misc
+1112	pm	PM
+1113	pm_no	PM no.
+1114	duration_hours	Duration (hours)
+1115	release_schedule	Release schedule
+1116	labor_hours	Labor hours
+1117	downtime_hours	Downtime hours
+1118	pm_description	Description
+1121	pm_labor	Labor
+1122	crew_size	Crew size
+1125	pm_tool	PM tool
+1126	qty	Qty
+1129	pm_part	PM part
+1132	pm_downtime	Downtime
+1135	pm_step	PM step
+1138	pm_safety	PM safety
+1141	pm_doc	PM document
+1144	pm_audit	PM audit
+1146	audit_user_id	User audited
+1149	pm_comment	Comment
+1153	pm_asset	PM asset
+1155	last_released	Last released
+1156	last_closed	Last closed
+1157	next_due_date	Next due date
+1158	release_count	Release count
+1161	pm_meter	PM meter
+1163	release_by_meter	Release by meter
+1164	reading_released	Reading released
+1165	reading_interval	Reading interval
+1166	copy_to_wo	Copy to WO
+1169	pm_season	PM season
+1172	pm_dependency	PM dependency
+1174	child_pm_id	Child PM no.
+1178	pm_release_type	Release type
+1180	pm_release_fixed	Fixed
+1181	pm_release_floating	Floating
+1182	pm_release_other	Other
+1185	pm_schedule_type	Schedule type
+1187	pm_schedule_time	By time
+1188	pm_schedule_meter	By meter
+1189	pm_schedule_timeandmeter	By time and meter
+1190	pm_schedule_other	Other
+1193	pm_dependency_type	Dependency type
+1195	pm_dependency_before	Release before
+1196	pm_dependency_after	Release after
+1197	pm_dependency_donotrelease	Do not release
+1200	pm_dependency_scope	Dependency scope
+1202	pm_dependency_scope_same	Same asset
+1203	pm_dependency_scope_all	All assets
+1207	pm_status	Status
+1209	pm_status_active	Active
+1210	pm_status_inactive	Inactive
+1216	tab_project_main	Main
+1217	tab_project_detail	Detail
+1218	tab_project_subproject	Sub project
+1219	tab_project_wo	Workorder
+1221	sec_project_codes	Codes
+1222	sec_project_cost	Cost
+1224	project_list	Project list
+1227	project	Project
+1228	project_no	Project
+1229	parent_project	Parent project
+1230	percent_done	% complete
+1231	sched_end_time	Schedule end
+1232	actual_end_time	Actual end
+1233	actual_hours	Actual hours
+1234	project_comment	Comment
+1237	project_type	Project type
+1238	type_project	Type
+1242	project_priority	Priority
+1243	pjp_p1	P1
+1244	pjp_p2	P2
+1245	pjp_p3	P3
+1246	pjp_p4	P4
+1247	pjp_p5	P5
+1250	project_status	Status
+1251	pjs_active	Active
+1252	pjs_delayed	Delayed
+1253	pjs_cancelled	Cancelled
+1254	pjs_complete	Complete
+1259	po_open_forms	Open
+1261	sec_po_vendor	Vendor
+1262	sec_po_buyer	Buyer
+1263	sec_po_cost	Cost
+1265	tab_po_main	Main
+1266	tab_po_item	Items
+1268	po_reopen_po	Reopen
+1269	po_view_status_log	Status log
+1271	po_list	PO list
+1272	po_mine	My POs
+1273	po_mine_list	My POs
+1275	tax_code_list	Tax code list
+1276	tab_tax_code	Tax code
+1278	sec_po_vendor	Vendor
+1279	sec_po_buyer	Buyer
+1281	form_po_edit	Edit PO
+1282	form_po_delete	Delete PO
+1283	po_reopen_not_closed	The state of the PO is not closed. It cannot be reopened.
+1284	po_closed_no_edit	The PO is closed. You must reopen it to edit.
+1285	po_submitted_no_delete	The PO is submitted so it cannot be deleted.
+1286	po_submitted_no_void	The PO is submitted so it cannot be voided.
+1288	po_status_change_not_allowed	The PO status change is not allowed.
+1289	po_approval_level_not_sufficient	Your PO Approval level is not sufficient to make this change.
+1292	po_add_item	Add item
+1293	po_remove_item	Remove item
+1296	tax_code	Tax code
+1297	tax_rate_total	Tax rate
+1300	tax_rate	Tax rate
+1303	po_address	Address
+1304	type_po_address	Type
+1307	po_address_type	Type
+1310	po	Purchase order
+1311	po_no	PO no.
+1312	buyer_id	Buyer
+1313	buyer_name	Buyer name
+1314	buyer_phone	Phone
+1315	po_date	PO date
+1316	vendor_addr	Vendor addr.
+1317	vendor_contact_id	Vendor contact
+1318	vendor_contact_phone	Phone
+1319	shipping_addr_id	Shipping addr.
+1320	billing_addr_id	Billing addr.
+1321	po_item_total	Item total
+1322	tax_charge	Tax
+1323	total_charge	Total
+1324	po_comment	Comment
+1325	po_next_user	Next assigned to
+1326	po_next_note	Assignment note
+1329	po_item	Items
+1330	line_no	Line
+1331	in_id	Item
+1332	qty_received	Qty received
+1335	po_status_log	Status log
+1339	po_status	Status
+1340	po_status_new	New
+1341	po_status_pre	Pre-approved
+1342	po_status_approved	Approved
+1343	po_status_voided	Voided
+1344	po_status_submitted	Submitted
+1345	po_status_acked	Acked
+1348	po_state	State
+1349	po_state_open	Open
+1350	po_state_reopen	Reopen
+1351	po_state_closed	Closed
+1354	po_approval_level	PO approval
+1355	po_level_none	No approval
+1356	po_level_1	Level 1
+1357	po_level_2	Level 2
+1358	po_level_3	Level 3
+1359	po_level_4	Level 4
+1361	po_level_unlimited	Unlimited
+1362	po_level_amount	PO total
+1365	po_addr_type	Type
+1366	pat_billing	Billing
+1367	pat_shipping	Shipping
+1368	pat_both	Both
+1371	shipping_type	Shipping type
+1372	shipping_ground	Ground
+1373	shipping_express	Express
+1376	shipping_term	Shipping term
+1377	shipping_fobo	FOB Origin
+1378	shipping_fobd	FOB Destination
+1381	payment_term	Payment term
+1382	payment_net30	Net 30
+1383	payment_CBS	Cash before shipping
+1388	rcm_failure_list	Failure list
+1390	rcm_view_part	View part
+1392	tab_rcm_main	Main
+1393	tab_rcm_action	Action
+1394	tab_rcm_consequence	Consequence
+1397	rcm_failure	Failure
+1398	failure	Failure
+1399	is_evident	Evident
+1400	failure_description	Description
+1403	rcm_action	Action
+1404	action	Action
+1405	cause	Cause
+1406	action_description	Description
+1409	rcm_action_part	Part
+1412	rcm_consequence	Consequence
+1413	consequence	Consequence
+1414	consequence_description	Description
+1417	rcm_function	Function
+1418	fn_name	Function
+1419	function_description	Description
+1422	rcm_template	RCM template
+1423	template	RCM template
+1426	rcm_consequence_type	Type
+1428	rct_safety	Safety
+1429	rct_environment	Environmental
+1430	rct_operation	Operational
+1431	rct_economic	Economical
+1434	rcm_cause_type	Cause type
+1436	rcs_mechanical	Mechanical
+1437	rcs_electrical	Electrical
+1438	rcs_other	Other
+1441	rcm_pm_policy	PM policy
+1443	rpp_rtf	Run to fail
+1444	rpp_pm	PM
+1446	asset_failure	Failure
+1447	failure	Failure
+1449	asset_action	Action
+1450	action	Action
+1455	tab_req_main	Main
+1456	tab_req_item	Items
+1458	req_reopen_req	Reopen
+1459	req_view_status_log	Status log
+1461	requisition_list	Requisition list
+1463	sec_requisition_codes	Codes
+1464	sec_requisition_cost	Cost
+1466	req_reopen_not_closed	The state of requisition is not closed. It cannot be reopened.
+1467	req_closed_no_edit	The requisition is closed. You must reopen it to edit.
+1468	req_item_on_po_no_deletion	This item is on PO. It cannot be deleted.
+1469	req_on_po_no_void	This requisition is on PO so it cannot be voided.
+1471	req_item_on_po_no_change	The item is on PO so the change is not allowed.
+1473	req_status_change_not_allowed	The requisition status change is not allowed.
+1474	req_approval_level_not_sufficient	Your Requisition Approval level is not sufficient to make this change.
+1477	requisition	Requisition
+1479	form_req_edit	Edit requisition
+1481	req_no	Req no.
+1482	request_user_id	User requested
+1483	request_time	Time requested
+1484	req_total	Req total
+1485	due_date	Due date
+1486	req_next_user	Next assigned to
+1487	req_next_note	Assignment note
+1488	req_description	Description
+1491	req_status_log	Status log
+1493	from_state_id	From state
+1494	to_state_id	To state
+1497	req_item	Req items
+1501	req_approval_level	Req approval
+1502	req_level_none	No approval
+1503	req_level_1	Level 1
+1504	req_level_2	Level 2
+1505	req_level_3	Level 3
+1506	req_level_4	Level 4
+1508	req_level_unlimited	Unlimited
+1509	req_level_amount	Req total
+1512	req_priority	Priority
+1513	reqp_emergency	Emergency
+1514	reqp_safety	Safety
+1515	reqp_operation	Operation
+1516	reqp_other	Other
+1519	req_status	Status
+1520	req_status_new	New
+1521	req_status_open	Open
+1522	req_status_pre	Pre-approved
+1523	req_status_approved	Approved
+1524	req_status_voided	Voided
+1527	req_state	State
+1528	req_state_open	Open
+1529	req_state_reopen	Reopen
+1530	req_state_closed	Closed
+1533	req_source	Source
+1534	req_source_auto	Auto-reorder
+1535	req_source_wo	Workorder
+1536	req_source_other	Other
+1539	req_on_po	Req on PO
+1540	req_on_po_none	None
+1541	req_on_po_partly	Partially on PO
+1542	req_on_po_all	All on PO
+1547	err_sched_max_days	The schedule range is over the maximum of {0} days. Use a range less than the maximum.
+1549	sched_by	Schedule By
+1550	sched_by_user	Schedule by user
+1551	sched_by_team	Schedule by team
+1554	shift	Shift
+1555	total_hours	Total hours
+1556	sched_hours	Hours to schedule
+1557	other_hours	Other hours
+1559	shift_1	Shift 1 (8:00 AM - 5:00 PM)
+1560	shift_2	Shift 2 (6:00 PM - 3:00 AM)
+1563	sched_shutdown	Shutdown schedule
+1566	sched_user	User schedule
+1568	sched_date	Date
+1569	hours_to_sched	Hours to schedule
+1570	hours_sched	Scheduled
+1572	sched_vt_by_user	Schedule by user
+1573	sched_vt_by_team	Schedule by team
+1578	tab_training_main	Main
+1579	tab_training_user	User
+1581	training_list	Training list
+1582	training_codes	Codes
+1585	training	Training
+1586	instructor_user_id	Instructor user
+1587	instructor_contact_id	Instructor contact
+1588	training_description	Description
+1591	training_user	Training user
+1594	training_status	Status
+1597	training_certificate	Certificate
+1598	certificate	Certificate
+1599	days_valid	Days valid
+1600	certificate_description	Description
+1603	training_course_type	Course type
+1604	course_type	Type
+1607	training_course	Course
+1608	course	Course
+1609	course_description	Description
+1612	training_status	Status
+1613	trns_complete	Complete
+1614	trns_incomplete	Incomplete
+1615	trns_failed	Failed
+1621	wo_material_not_zero_nodel	This record has usage information. It cannot be deleted.
+1622	form_wo_edit	Workorder edit
+1623	wo_closed_no_edit	The workorder is closed. You must reopen the workorder to edit it.
+1624	wo_reopen_not_closed	The workorder is not closed. It cannot be reopened.
+1626	tab_wo_main	Main
+1627	tab_wo_instruction	Instruction
+1628	tab_wo_step	Steps
+1629	tab_wo_labor	Labor
+1630	tab_wo_part	Part
+1631	tab_wo_tool	Tool
+1632	tab_wo_downtime	Downtime
+1633	tab_wo_meter	Meter
+1634	tab_wo_misc	Misc
+1635	tab_wo_comment	Comments
+1636	tab_wo_document	Document
+1637	tab_wo_status	Status
+1639	sec_wo_failure	Failure
+1640	sec_wo_origin	Origination
+1641	sec_wo_assignment	Assignment
+1642	sec_wo_schedule	Schedule
+1643	sec_wo_completion	Completion
+1644	sec_wo_accept	Acceptance
+1645	sec_wo_codes	Codes
+1646	sec_wo_cost	Cost
+1647	sec_wo_downtime	Downtime
+1649	wo_downtime	Downtime
+1651	wo_req	Work request
+1652	wo_new_wo	New
+1653	wo_new_req	New request
+1654	wo_new_no_pm	New work order
+1655	wo_new_pm	New from PM
+1656	wo_mine	My workorders
+1657	wo_all	Workorder list
+1659	wo_open_forms	Open
+1660	wo_reopen_wo	Reopen workorder
+1661	wo_view_status_log	Status log
+1662	wo_my_assignment	My assignment
+1663	wo_my_request	My request
+1664	wo_my_team	My team assignment
+1667	wo_part_new	New
+1668	wo_part_add	Add part
+1669	wo_part_return	Return part
+1671	wo_tool_new	New
+1672	wo_tool_add	Add tool
+1673	wo_tool_return	Return tool
+1675	wo_tool_checkout	Checkout tool
+1677	wo_meter_new	New
+1678	wo_meter_add	Add reading
+1679	wo_meter_history	View readings
+1682	wo_category	Work category
+1683	woc_emergency	Emergency (breakdown)
+1684	woc_corrective	Corrective
+1685	woc_predictive	Predictive
+1686	woc_preventive	Preventive
+1687	woc_detective	Detective
+1690	wo_priority	Work priority
+1691	wop_p1	Safety Hazards
+1692	wop_p2	Safety matters
+1693	wop_p3	Production downtime
+1694	wop_p4	Normal maintenance
+1695	wop_p5	Project
+1698	wo_resolution	Resolution
+1699	wor_open	Open
+1700	wor_resolved	Resolved
+1701	wor_donotfix	Do not fix
+1702	wor_delayed	Delayed
+1703	wor_duplicate	Duplicate
+1706	wo_status	Status
+1707	wos_new	New
+1708	wos_open	Open
+1709	wos_scheduled	Scheduled
+1710	wos_wfm	Wait for material
+1711	wos_inprogress	In progress
+1712	wos_complete	Completed
+1713	wos_reopen	Reopen
+1714	wos_accepted	Accepted
+1715	wos_closed	Closed
+1718	wo_origin	Origination
+1719	woo_request	Trouble call
+1720	woo_pm	PM
+1721	woo_rework	Rework
+1722	woo_other	Other
+1725	wo_time_type	Time type
+1726	wott_work	Work
+1727	wott_travel	Travel
+1728	wott_wfp	Wait for parts
+1729	wott_other	Other
+1732	downtime_type	Downtime
+1733	wodt_planned	Planned
+1734	wodt_emergency	Emergency
+1735	wodt_site	Site shutdown
+1738	wo_gen_status	Status
+1739	wgn_started	Started
+1740	wgn_failed	Failed
+1741	wgn_complete	Completed
+1744	wo_generation	W.O. generation log
+1745	wo_count	Generated
+1746	to_date	Generated to
+1747	wogen_status	Status
+1748	wogen_start_time	Start time
+1749	wogen_end_time	End time
+1750	wogen_user_id	User name
+1753	wo_pm_select	Select PM
+1755	wps_asset	PM for the asset
+1756	wps_any	Any PM
+1759	craft	Craft
+1760	craft_list	Craft
+1762	rate	Rate
+1763	ot_factor	O.T. factor
+1766	workorder	Work order
+1767	wo_no	Wo no.
+1768	wo_description	Description
+1769	asset_note	Asset note
+1770	orig_contact_id	Contact requested
+1771	orig_user_id	User requested
+1772	orig_time	Time requested
+1773	time_needed	Time needed
+1774	assigned_team_id	Team assigned
+1775	assigned_to_id	Assigned to
+1776	assigned_by_id	Assigned by
+1777	assigned_time	Time assigned
+1779	rework_wo_id	Rework wo no.
+1780	parent_wo_id	Parent wo no.
+1781	duplicate_wo_id	Duplicate wo no.
+1783	planned_start_time	Planned start
+1784	sched_start_time	Scheduled start
+1785	sched_start_shift_id	Shift to start
+1786	actual_start_time	Time started
+1787	actual_start_shift_id	Shift started
+1789	planned_finish_time	Planned finish
+1790	sched_finish_time	Scheduled finish
+1791	sched_finish_shift_id	Shift to finish
+1792	actual_finish_time	Time finished
+1793	actual_finish_shift_id	Shift finished
+1794	finish_by_id	Finished by
+1795	finish_note	Finish note
+1797	accepted_by_id	Accepted by
+1798	accepted_time	Time accepted
+1799	accept_note	Accept note
+1801	close_by_id	Closed by
+1802	close_time	Time closed
+1804	planned_labor_hours	Hours planned
+1805	sched_labor_hours	Hours scheduled
+1806	actual_labor_hours	Actual hours
+1808	labor_cost	Labor
+1809	material_cost	Material
+1810	total_cost	Total
+1812	planned_downtime_hours	Downtime planned
+1813	actual_downtime_hours	Actual downtime
+1815	modified_id	Modified by
+1816	created_id	Created by
+1817	modified_time	Last modified
+1818	created_time	Time created
+1821	wo_step	Work steps
+1822	seq	Seq #
+1823	completed	Completed
+1824	completed_by_id	Completed by
+1825	completed_time	Time completed
+1826	step_description	Description
+1829	wo_safety	Safety notes
+1830	followed	Followed
+1831	followed_by_id	Followed by
+1832	safety_description	Description
+1835	wo_doc	Documents
+1838	wo_attachment	Attachments
+1839	file_url	File
+1842	wo_comment	Comments
+1843	comment	Comment
+1846	wo_status_audit	Status history
+1849	wo_labor	Labor
+1850	staff_id	Staff
+1851	hours	Hours
+1852	ot_hours	O.T. hrs
+1853	line_cost	Line cost
+1856	wo_tool	Tool
+1857	tool_in_id	Tool no.
+1858	qty_checkout	Checked out
+1859	qty_return	Returned
+1862	wo_part	Part
+1863	part_in_id	Part no.
+1864	qty_used	Qty used
+1867	wo_meter	Meter
+1868	reading	Reading
+1871	wo_planned_labor	Planned labor
+1874	wo_planned_tool	Planned tool
+1877	wo_planned_part	Planned Part
+1880	wo_planned_downtime	Planned Downtime
+1883	wo_sched_labor	Scheduled labor
+1886	wo_status_log	Status log
+1887	to_status_id	To status
+1888	from_status_id	From status
+1889	changed_by_id	Changed by
+1892	wo_vt_new_pm	New from PM
+1894	wo_vt_part_checkout	Part checkout
+1895	wo_vt_part_return	Part return
+1900	group_module_list	Group modules
+1902	vt_module_list	Modules
+1903	module	Module
+1905	vt_form_list	Forms
+1906	form	Form
+1907	table_id	Table
+1908	table_name	Table name
+1910	vt_table_list	Table list
+1911	vt_dropdown_list	Dropdown list
+1914	vt_field	Table field
+1915	field_name	Field name
+1916	field_type	Type
+1917	field_label	Label
+1918	field_length	Length
+1919	required	Required
+1920	lookup	Lookup
+1923	vt_field_type	Field type
+1924	vt_field_varchar	Varchar (length required)
+1925	vt_field_text	Text (long text field)
+1926	vt_field_guid	Guid (Varchar (36))
+1927	vt_field_boolean	Boolean
+1928	vt_field_tinyint	Tinyint
+1929	vt_field_integer	Integer
+1930	vt_field_double	Double
+1931	vt_field_date	Date
+1932	vt_field_datetime	Datetime
+1933	vt_field_sys_currency	System currency
+1934	vt_field_currency	Other currency
+1937	vt_dropdown_use	Dropdown
+1938	dropdown_name	Dropdown
+1939	label	Label
+1940	dropdown_fixed	Fixed
+1943	vt_label	Label
+1944	label_id	Label Id
+1949	key_customize	Customize
+1952	recycle_bin	Recycle bin
+1953	rb_desc	Description

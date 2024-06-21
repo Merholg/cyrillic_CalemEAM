@@ -1,0 +1,1266 @@
+20	username	Имя пользователя
+21	password	Пароль
+22	login	Login
+23	copyright	Copyright &copy; 2007 CalemEAM Inc. All rights reserved.
+24	login_err	Пожалуйста, введите имя пользователя и пароль для входа в систему.
+25	calemeam_title	CalemEAM — CMMS/EAM с открытым исходным кодом
+26	login_reqd	Единственное разрешенное действие — вход в систему. Действие отменено.
+27	splash_wait_text	Загрузка...
+28	language	Язык
+30	installation_not_deleted	Каталог <b>installation</b> не удалился. Это вопрос безопасности. Перед использованием CalemEAM необходимо удалить каталог <b>installation</b>.
+32	exit_calemeam	CalemEAM выведет вас из системы после подтверждения. Выберите «Отмена», чтобы продолжить использование CalemEAM.
+37	SF_InvalidLogin	Ошибка входа. Пожалуйста, проверьте свое имя пользователя/пароль и повторите попытку.
+38	SF_NoActiveSession	Ваша сессия больше не действительна на сервере. Вы выйдете из системы.
+39	SF_Unknown	На сервере произошла ошибка. Пожалуйста, свяжитесь с вашим системным администратором.
+42	modCalemWo	Порядок работы
+43	modCalemAsset	Актив
+44	modCalemPm	PM
+45	modCalemIn	Инвентарь
+46	modCalemPo	Покупка
+47	modCalemAdmin	Админ
+48	modCalemBudget	Бюджет
+49	modCalemHome	Дом
+50	modCalemDoc	Документ
+51	modCalemSched	Расписание
+52	modCalemRcm	ТО
+53	modCalemInspection	Инспекция
+54	modCalemContact	Контакт
+55	modCalemContract	Договор
+56	modCalemVendor	Продавец
+57	modCalemProject	Проект
+58	modCalemTraining	Обучение
+59	modCalemReq	Реквизиция
+60	modCalemDash	Панель приборов
+62	txtCalemMore	Более
+65	tab_close	Закрыть
+68	button_select	Выбрать
+69	button_close	Закрыть
+72	form_close_title	Закрыть форму
+73	form_close_prompt	Изменения будут потеряны при закрытии формы. Нажмите Да, чтобы закрыть форму.
+74	form_delete_title	Удалить данные
+75	form_delete_prompt	Выбранные данные будут удалены без возможности восстановления. Нажмите Да, чтобы удалить данные.
+76	form_save_title	Сохранить данные
+77	form_save_conflict	Запись была обновлена другими. Ваши изменения не были применены. Запись обновлена.
+78	form_save_deleted	Запись, которую вы изменили, не найдена на сервере. Возможно, оно было удалено другими.
+79	form_new_title	Создать данные
+81	delete_dependency_no_del	Данные невозможно удалить. На них ссылается {0} ({1}).
+84	soap_busy	Обращение к серверу...
+87	error_key_duplication	Ключевые поля {0} дублируются. Пожалуйста, исправьте поля и повторите попытку.
+88	error_native_label	Собственная ошибка: {0}
+89	error_default	Произошла неизвестная ошибка при внесении изменений данных на сервер. Пожалуйста, свяжитесь с вашим системным администратором.
+90	error_server	Ошибка сервера
+91	error_data_not_found	Не удалось найти данные по запросу.
+94	menu_form	Форма
+95	menu_procedure	Процедура
+96	menu_report	Отчет
+97	menu_configuration	Настройки
+100	menu_new	Новый
+101	menu_open	Открыть
+102	menu_edit	Редактировать
+103	menu_save	Сохранить
+104	menu_cancel	Отмена
+105	menu_delete	Удалить
+106	menu_print	Распечатать
+107	menu_print_customize	Настроить
+108	menu_prev	Предыдущий
+109	menu_next	Следующий
+110	menu_select	Выбрать
+111	menu_customize	Настроить
+112	menu_customize_reset	Перезагрузить
+113	menu_search	Поиск
+114	menu_search_clear	Очистить поиск
+115	menu_refresh	Обновить
+116	menu_apply	Применить
+117	menu_apply_save	Применить и сохранить
+118	menu_export_excel	Экспорт
+121	menu_logout	Выход
+122	menu_help	Помощь
+125	USD	Доллар США
+126	CAD	Канадский доллар
+127	MXN	Мексиканское песо
+130	form_error	В форме есть ошибки. Пожалуйста, исправьте ошибки и повторите попытку.
+131	lookup_invalid	Значение поля для поиска недопустимо.
+132	field_invalid	Значение поля недействительно.
+135	at_time	В
+138	schedule_weekly	Еженедельно
+139	schedule_weeks	Каждую неделю
+140	schedule_months	Каждый месяц
+141	schedule_days	Каждый день
+142	schedule_on	Вкл
+144	dow_short_mon	Пн
+145	dow_short_tue	Вт
+146	dow_short_wed	Ср
+147	dow_short_thu	Чт
+148	dow_short_fri	Пт
+149	dow_short_sat	Сб
+150	dow_short_sun	Вс
+152	dow_long_mon	Понедельник
+153	dow_long_tue	Вторник
+154	dow_long_wed	Среда
+155	dow_long_thu	Четверг
+156	dow_long_fri	Пятница
+157	dow_long_sat	Суббота
+158	dow_long_sun	Воскресенье
+160	schedule_w1	Первый
+161	schedule_w2	Второй
+162	schedule_w3	Третий
+163	schedule_w4	Четвертый
+164	schedule_wl	Последний
+166	schedule_start	Начать с
+167	schedule_until	До
+168	schedule_start_time	Время начала
+169	schedule_repeat	Повторить
+170	schedule_every	Каждый
+171	schedule_minutes	минуты
+172	schedule_hours	часы
+174	schedule_weekly_text	Каждую неделю в {0}
+175	schedule_weeks_text	Каждые {0} недель в {1}
+176	schedule_months_text	Каждые {0} месяцев в {1} {2}
+177	schedule_days_text	Каждые {0} дней
+179	schedule_dates_from	от {0}
+180	schedule_dates_till	до {0}
+181	schedule_dates_from_till	с {0} по {1}
+183	schedule_time_start	Начать с {0}
+184	schedule_time_start_end	Начало с {0} по {1}
+185	schedule_time_minutes	каждые {0} минут
+186	schedule_time_hours	каждые {0} часов
+187	schedule_time_full	{0}, {1}
+191	form_design	Дизайн формы
+192	form_error_row	(строка сообщения об ошибке)
+193	row	(Строка)
+194	separator	(Разделитель)
+195	col	(Клетка)
+196	blank_row	Строка
+197	toolbar	Панель инструментов
+198	table_extension	Настраиваемые поля
+199	caption	Подпись
+200	save_to	Сохранить в:
+201	grid_design	Дизайн сетки
+203	CALEM_OOB	(CalemEAM)
+204	CUSTOM_SYSTEM	(Пользовательская система)
+206	last_visible_grid_field	Невозможно удалить последнее поле сетки.
+207	done	Готово
+209	CUSTOMIZE_TAB	Настроить
+211	form_tab	Вкладка «Форма»
+212	form	Форма
+214	fixed	(Исправлено)
+215	scheduler_job_list	Список заданий
+218	search_select	Выберите поиск
+219	my_search	Мой поиск:
+220	shared_search	Общий поиск:
+221	no_saved_search	(Нет сохраненного поиска)
+222	save_search	Сохранить поиск:
+223	save_search_field	Сохранить поиск (поле)
+224	search_as	Как:
+226	search_mine	Мой поиск
+227	search_group	Доступно моей группе
+228	search_system	Доступно всем
+230	no_selection	(Не выбрано)
+231	search_not_valid	Поиск недействителен. Пожалуйста, исправьте ошибки.
+236	id	Id
+241	welcome_no_time	Добро пожаловать, {0}
+242	welcome_with_time	Добро пожаловать, {0}. Ваше местное время: {1}.
+244	datetime_not_valid	Дата и время недействительны.
+246	boolean_true	Проверено
+247	boolean_false	Не проверено
+249	new_no_parent	Данные не могут быть созданы без действительной родительской записи. Сначала создайте родительскую запись.
+251	data_refresh	Обновить данные
+256	admin_codes	Коды
+257	admin_scheduler	Планировщик
+258	admin_upgrade	Обновление
+260	tab_scheduler_job_main	Основной
+261	tab_scheduler_job_log	Задание выполняется
+263	data_design	Дизайн данных
+264	table_design	Дизайн таблицы
+265	dropdown_design	Выпадающий дизайн
+266	my_account	Мой account
+267	group_acl_design	Групповой дизайн
+269	module_design	Модульный дизайн
+270	module_list_customize	Доступные модули
+271	module_customize	Модульный дизайн
+273	table_customize	Настроить таблицу
+274	dropdown_customize	Настроить раскрывающийся список
+276	menu_node	Узел меню
+277	menu_item	Пункт меню
+279	drop_for_design	Дизайн выпадающих пунктов
+280	default_menu	Пункт меню по умолчанию
+281	module_layout	Компоновка модуля
+283	field_add	Добавить поле
+284	field_delete	Удалить поле
+285	field_name_change	Изменить имя
+286	field_type_change	Тип изменения
+288	dropdown_add	Добавить раскрывающийся список
+289	dropdown_edit	Изменить раскрывающийся список
+290	dropdown_delete	Удалить раскрывающийся список
+292	field_name_invalid	Имя поля недействительно. Оно должно состоять из букв, цифр, символов подчеркивания и иметь длину до 30 символов.
+293	field_length_invalid	Длина поля необходима для типа Varchar. Длина должна быть от 1 до 4000.
+294	field_name_duplicate	Имя поля использовалось в этой таблице. Используйте другое имя.
+296	field_delete_title	Удалить поле
+297	field_delete_prompt	Настраиваемое поле и его данные будут удалены без возможности восстановления. Нажмите Да, чтобы удалить его.
+299	dropdown_delete_title	Удалить раскрывающийся список
+300	dropdown_delete_prompt	Запись раскрывающегося списка будет удалена навсегда. Нажмите Да, чтобы удалить его.
+302	communication	Коммуникация
+303	address	Адрес
+304	access_rights	Права доступа
+305	purchase	Покупка
+306	job	Работа
+307	last_changes	Последние изменения
+308	retype	Перепечатайте
+309	retype_back	(перепечатать)
+310	retype_error	Пароль и повторный ввод не совпадают
+312	label_edit	Изменить ярлык
+315	search_admin	Поиск администратора
+316	search_admin_none	Нет администратора
+317	search_admin_group	Администратор группы
+318	search_admin_system	Системный администратор
+321	dept	Отделение
+322	manager_id	Менеджер
+325	acl_group	Группа
+326	parent_group_id	Родительская группа
+328	child_group_not_empty	Для этой группы есть дочерние группы. Эту группу невозможно удалить.
+329	group_users_not_empty	В этой группе есть пользователи. Эту группу невозможно удалить.
+330	built_in_group_no_deletion	Это встроенная группа, удалить ее невозможно.
+333	im_type	IM
+334	im_yahoo	Yahoo
+335	im_skype	Skype
+336	im_msn	MSN
+337	im_aol	AOL
+340	job_role	Должность
+341	eam_staff	Сотрудники ЕАМ
+343	job_eam_tech	ЕАМ - Техник
+344	job_eam_supervisor	ЕАМ – Супервайзер
+345	job_eam_plannner	ЕАМ – Планировщик
+346	job_eam_support	ЕАМ – Поддержка
+347	job_operations	Операции
+348	job_other	Другой
+351	locale	Языковой стандарт
+354	team	Команда
+355	lead_id	Проведение
+358	users	Пользователи
+359	user	Пользователь
+360	emp_no	Работник №.
+361	login_allowed	Вход разрешен?
+362	full_name	Полное имя
+363	job_title	Должность
+364	supervisor_id	Руководитель
+365	phone_work	Рабочий телефон
+366	phone_home	Домашний телефон
+367	phone_mobile	Мобильный телефон
+368	email_work	Рабочая электронная почта
+369	email_other	Другой адрес электронной почты
+370	im1_id	IM Id
+371	im2_id	IM Id
+372	fax	Факс
+373	company	Компания
+374	street1	Улица
+375	street2	Улица # 2
+376	city	Город
+377	state	Штат
+378	zip	Почтовый индекс
+379	country	Страна
+382	scheduler_task	Задания
+383	task	Задача
+384	scheduler_task_note	Примечание
+385	class_name	Класс
+386	class_path	Путь к классу
+389	scheduler_job	Задания
+390	scheduler_job_note	Примечание
+391	is_active	Активный
+392	start_seq	Seq
+393	release_time	Время выпуска
+394	release_day	Дни выпуска
+395	time_due	Срок выполнения
+398	scheduler_job_log	Запуск задания
+399	scheduler_time_taken	Затраченное время
+400	results	Результат
+403	semaphore	Семафор
+404	expire_time	Время истечения
+407	user_type	Тип пользователя
+408	ut_maint_staff	Обслуживающий персонал
+409	ut_other_staff	Другой персонал
+410	ut_contractor	Подрядчик
+411	ut_customer	Клиент
+412	ut_partner	Партнер
+413	ut_other	Другой
+416	user_status	Состояние
+417	us_active	Активный
+418	us_transferred	Переведено
+419	us_departed	Ушел
+422	version_status	Состояние
+423	vs_started	Начато
+424	vs_upgraded	Модернизированный
+425	vs_failed	Неуспешный
+428	version	Версия
+429	vid	ID версии
+430	note	Примечание
+431	props	Характеристики
+434	version_upgrade_log	История обновлений
+435	vid	ID версии
+436	ver_note	Примечание
+437	prev_vid	ID предыдущей версии
+438	prev_ver_note	Примечание к предыдущей версии
+439	prev_props	Предыдущие свойства
+440	upgrade_note	Примечание об обновлении
+441	upgrade_log	Журналы
+447	tab_asset_main	Основной
+448	tab_asset_downtime	Время простоя
+449	tab_asset_meter	Метр
+450	tab_asset_part	Часть
+451	tab_asset_depreciation	Амортизация
+452	tab_asset_comment	Комментарий
+453	tab_asset_contract	Договор
+454	tab_asset_misc	Разное
+456	sec_asset_warranty	Гарантия
+457	sec_asset_depreciation	Амортизация
+458	sec_asset_codes	Коды
+459	sec_asset_cost	Расходы
+461	view_meter_reading_history	Чтение истории
+462	add_meter_reading	Добавить чтение
+463	asset_view_service_log	Журнал сообщений
+464	asset_view_activity_log	Журнал активности
+465	asset_view_asset_child	Дочерний актив
+466	asset_view_asset_location_child	Актив на месте
+468	asset_list	Список активов
+469	asset_codes	Коды
+470	asset_report_list	Отчет о списке активов
+472	asset_meter_select	Выберите счетчик
+474	asset_child	Дочерний актив
+475	asset_loc_child	Актив на месте
+478	asset	Актив
+479	asset_no	Актив №
+480	weight	Масса
+481	weight_uom_id	Весовая единица
+482	serial_no	Серийный №
+483	purchase_date	Дата покупки
+484	original_cost	Первоначальная стоимость
+485	warranty_start_date	Начало гарантии
+486	warranty_end_date	Окончание гарантии
+487	maint_labor_hours	Рабочие часы по техническому обслуживанию
+488	maint_labor_cost	Стоимость работ по техническому обслуживанию
+489	maint_material_cost	Стоимость материалов для обслуживания
+490	maint_cost	Стоимость технического обслуживания
+491	rollup_cost	Стоимость объединения
+492	depreciation_start	Начало амортизации
+493	depreciation_rate	Норма амортизации
+494	depreciation_time_id	Интервал амортизации
+495	parent_asset	Родительский актив
+496	location_asset	Объект местоположения
+497	owner_user_id	Пользователь-владелец
+498	asset_photo	Фотография объекта
+499	asset_description	Описание
+502	asset_downtime	Время простоя активов
+503	start_time	Время начала
+504	end_time	Время окончания
+505	hours	Часы
+506	reported_by_id	Сообщено
+507	reported_time	Сообщается на
+510	asset_meter	Счетчик активов
+511	meter_no	Счетчик №.
+512	reading_uom_id	Блок чтения
+513	reading	Чтение
+514	time_taken	Затраченное время
+515	rollover_type_id	Тип ролловера
+516	rollover_count	Количество ролловеров
+519	asset_part	Часть актива
+520	asset_part_qty	Кол-во
+523	asset_depreciation	Амортизация активов
+524	start_value	Начальное значение
+525	depreciation	Амортизация
+526	end_value	Конечная стоимость
+529	asset_comment	Комментарий к активу
+532	meter_transaction	Показания счетчика
+533	read_by_id	Читать
+534	is_rollover	Ролловер
+535	tran_voided	Транзакция отменена
+536	new_tran_id	Новая транзакция
+537	void_time	Пустое время
+538	void_by_id	Аннулировать
+541	manufacturer	Производитель
+542	manufacturer_list	Производитель
+543	contact_name	Контактное лицо
+546	Downtime_unit_cost	Стоимость единицы простоя
+547	hourly_rate	Почасовая ставка
+550	meter_type	Тип счетчика
+551	type_meter	Тип
+552	meter_type_list	Тип счетчика
+553	rollover_reading	Ролловер чтение
+556	asset_type	Тип актива
+557	type_asset	Тип
+558	asset_type_list	Тип актива
+561	asset_service_log	Журнал обслуживания
+562	to_location_id	Новое место
+563	from_location_id	Пред. расположение
+564	to_parent_id	Новый Родитель
+565	from_parent_id	Пред. Родитель
+566	to_owner_id	Новый владелец
+567	from_owner_id	Пред. владелец
+570	asset_contract	Договор
+574	asset_category	Категория активов
+575	as_cat_equipment	Оборудование
+576	as_cat_building	Здание
+577	as_cat_system	Система
+578	as_cat_location	Расположение
+581	asset_part_type	Тип части актива
+582	as_part_major	Главный
+583	as_part_routine	Рутина
+586	asset_priority	Приоритет актива
+587	as_pri_critical	Критический
+588	as_pri_production	Производство
+589	as_pri_nonproduction	Непроизводственное
+592	asset_status	Состояние актива
+593	as_status_inservice	В сервисе
+594	as_status_inrepair	В ремонте
+595	as_status_scrapped	Списано
+598	depreciation_type	Тип амортизации
+599	as_dep_straightline	Прямая линия
+600	as_dep_other	Другой
+603	depreciation_time	Время амортизации
+604	as_dep_annual	Ежегодно
+605	as_dep_quarter	Ежеквартальный
+607	duration_days	Дни
+610	downtime_type	Тип простоя
+611	as_dt_emergency	Чрезвычайная ситуация
+612	as_dt_pm	Плановое обслуживание
+613	as_dt_project	Проект
+614	as_dt_other	Другой
+617	downtime_cause	Причина простоя
+618	as_dc_operationerr	Операция
+619	as_dc_maintenanceerr	Обслуживание
+620	as_dc_other	Другой
+623	meter_rollup_type	Сведение счетчиков
+624	as_mrt_none	Никто
+625	as_mrt_rollupchange	Изменение сводки
+631	modCalemBudget	Бюджет
+633	form_budget_edit	Изменить бюджет
+634	form_budget_delete	Удалить бюджет
+635	budget_reopen_not_closed	Состояние бюджета не закрыто. Его нельзя открыть повторно.
+636	budget_closed_no_edit	Бюджет закрыт. Вам необходимо снова открыть его для редактирования.
+638	form_budget_update	Обновить бюджет
+639	budget_closed_no_update	Бюджет закрыт. Вам необходимо снова открыть его для обновления.
+641	budget_not_empty	В этом заголовке бюджета есть бюджетные записи, и его нельзя удалить. Сначала удалите записи бюджета.
+643	budget_invalid_dates_exception	Даты начала и окончания бюджета недействительны. Фактический бюджет рассчитать невозможно.
+646	menu_budget_update_actual	Обновить фактическое
+649	budget_list	Список бюджета
+652	state_budget	Состояние
+653	budget	Бюджет
+654	budgeted	Запланированный в бюджете
+655	app	ЕАМ
+656	accounting	Бухгалтерский учет
+659	budget_status_log	Журнал состояния
+660	budget_reopen_budget	Открыть заново
+661	budget_view_status_log	Журнал состояния
+664	budget_title	Название бюджета
+665	start_date	Дата начала
+666	end_date	Дата окончания
+667	note	Примечание
+669	invalid_start_end_date	Дата начала должна предшествовать дате окончания.
+672	costcode	Код стоимости
+673	rollup_cost	Стоимость объединения
+674	costcode_parent	Родительский код
+677	cost_type	Тип стоимости
+678	cost_employee_labor	Сотрудник
+679	cost_contractor_labor	Подрядчик труда
+680	cost_labor	Труд
+681	cost_internal_material	Внутренний материал
+682	cost_contractor_material	Материалы подрядчика
+683	cost_material	Материал
+684	cost_training	Обучение
+685	cost_operations	Операции
+686	cost_other	Другой
+689	budget_state	Состояние
+691	budget_state_open	Открыть
+692	budget_state_reopen	Открыть заново
+693	budget_state_closed	Закрыто
+697	currency	Валюта
+698	currency_no	Валюта
+704	contact	Контакт
+705	type_id	Тип
+708	contact_type	Тип
+709	cnt_vendor	Продавец
+710	cnt_manufacturer	Производитель
+711	cnt_partner	Партнер
+712	cnt_tenant	Жилец
+713	cnt_other	Другой
+718	tab_vendor_main	Основной
+719	tab_vendor_contact	Контакт
+720	tab_vendor_misc	Разное
+722	tab_contract_main	Основной
+723	tab_contract_misc	Разное
+724	tab_contract_contact	Контакт
+725	tab_contract_doc	Документ
+727	vendor_list	Список поставщиков
+728	contract_list	Список контрактов
+731	vendor	Продавец
+732	vendor_address	Адрес
+733	contact_id	Контакт
+734	vendor_comment	Комментарий
+737	vendor_contact	Контакт
+740	contract	Договор
+741	contract_comment	Комментарий
+744	contract_contact	Контакт
+747	contract_doc	Документ
+750	vendor_status	Состояние
+751	vds_active	Активный
+752	vds_inactive	Неактивный
+755	contract_status	Состояние
+756	cs_valid	Действительный
+757	cs_expired	Истекший
+758	cs_cancelled	Отменено
+761	contract_type	Тип контракта
+762	ct_sla	SLA
+763	ct_oem	OEM
+764	ct_other	Другой
+770	dash_title	Панель приборов
+771	tab_dash	Основной
+772	peer_tab_col	Столбец
+774	dash_wo_orig_day	Ежедневный подсчет WO по источникам
+775	dash_wo_orig_md	Ежемесячный подсчет WO по источникам
+776	dash_wo_status_pie	Подсчет WO по состоянию
+777	dash_wo_age_pri	Давность WO по приоритету
+780	wo_age_pri_1w_less	менее 1 недели
+781	wo_age_pri_1w	1 неделя
+782	wo_age_pri_2w	2 недели
+783	wo_age_pri_3w	3 недели
+784	wo_age_pri_4w	4 или более недель
+786	wo_pri_null	Нулевой приоритет
+791	menu_upload_view	Посмотреть файл
+792	menu_attachment_view	Посмотреть файл
+794	upload_busy	Загрузка файла на сервер...
+795	tab_doc	Основной
+797	document	Документ
+798	document_list	Список документов
+800	content	Содержание
+803	doc_type	Тип документа
+804	type_doc	Тип
+807	doc_attachment	Вложение
+810	doc_upload	Загруженные файлы
+811	file_upload	Файл
+813	doc_access_type	Тип доступа
+814	doc_access_public	Общественный
+815	doc_access_app	Приложение
+820	tab_ins_main	Основной
+821	tab_ins_citation	Цитирование
+823	inspection_list	Список проверок
+826	inspection	Инспекция
+827	inspection_type	Тип
+828	inspect_contact_id	Инспекционный контакт
+829	inspect_user_id	Пользователь проверки
+832	ins_citation	Цитирование
+833	citation	Цитирование
+834	severity_id	Строгость
+838	ins_type	Инс. тип
+840	ins_type_osha	OSHA
+841	ins_type_epa	EPA
+842	ins_type_other	Другой
+845	ins_citation_severity	Серьезность цитирования
+847	ins_cs_major	Главный
+848	ins_cs_minor	Незначительный
+853	tab_in_main	Основной
+854	tab_in_stock	Запас
+855	tab_in_doc	Документ
+856	tab_in_tran	Сделка
+857	tab_in_vendor	Продавец
+858	tab_in_reserved	Зарезервированный
+859	tab_in_audit	Аудит
+860	tab_in_misc	Разное
+862	in_tb_checkout	Проверить
+863	in_tb_return	Возврат
+864	in_tb_receive	Получать
+865	in_tb_physical	Физический подсчет
+866	in_tb_move	Движение
+867	in_tb_checkin	Регистрироваться
+869	in_tb_gen_order_req	Создать заявку
+870	in_order_list	Список заказа
+871	in_order_gen_new	Создать заказ
+873	inventory_tool	Инструменты
+874	inventory_part	Части
+876	lb_reorder	Изменение порядка
+877	in_codes	Коды
+878	in_stock_level	Уровень запасов
+880	in_stock_qty_not_zero	Количество на складе в этом месте не равно нулю. Эту запись невозможно удалить.
+881	in_no_stock_no_checkout	В этом месте нет товаров, невозможно оформить заказ.
+882	in_no_stock_to_move	В этом месте нет товаров, невозможно выполнить транзакцию перемещения запасов.
+884	in_stock_select	Выберите акцию
+887	inventory_list	Список инвентаря
+888	inventory	Инвентарь
+890	in_no	Предмет №.
+891	type_in	Тип
+892	abc_time	Последнее обновление ABC
+893	avg_unit_cost	Средняя стоимость единицы
+894	rent_rate	Арендная ставка
+895	rent_uom_id	Аренда Uom
+896	qty_in_stock	Кол-во на складе
+897	qty_on_order	Кол-во под заказ
+898	qty_reserved	Кол-во зарезервировано
+899	qty_to_order	Кол-во для заказа
+900	min_level	Мин
+901	max_level	Макс
+902	reorder_point	Точка перезаказа
+903	reorder_qty	Кол-во для повторного заказа
+904	in_order_notification	Уведомление о заказе
+905	in_description	Описание
+908	in_stock	Запас
+909	location_id	Расположение
+912	in_reserved	Зарезервированный
+915	in_doc	Документ
+918	in_comment	Комментарий
+921	in_audit	Аудит
+924	in_vendor	Продавец
+926	vendor_part_no	№ детали поставщика.
+927	is_primary	Первичен
+928	unit_cost	Стоимость единицы
+929	unit_cost_lc	Стоимость единицы
+930	lead_time_days	Срок выполнения (дней)
+933	in_location	Местоположение склада
+934	location	Расположение
+935	parent_id	Родительское местоположение
+938	in_tran	Сделка
+940	checkout_to_id	Оформить заказ на ID
+941	receive_from_id	Получить от ID
+942	qty_available	Доступное кол-во
+943	qty_orig	Ориг.  кол-во
+944	orig_loc_id	Ориг.  расположение
+945	checkout_tran_id	Проверка тран. ID
+946	rent_duration	Продолжительность аренды
+947	tran_total	Тран. общий
+948	tran_time	Тран. время
+949	tran_user_id	Тран. пользователь
+950	store_user_id	Пользователь магазина
+951	voided	Аннулирован
+952	authorized_by_id	Уполномочен
+953	void_by_id	Аннулировано
+954	void_time	Время аннулировано
+955	void_note	Пустая записка
+956	new_tran_id	Новый тран. ID
+959	in_tran_worksheet	Тран. рабочий лист
+963	in_type	Тип инвентаря
+966	uom	Единица измерения
+967	uom_fld	Uom
+970	uom_map	Uom преобразование
+971	uom_src_id	Uom
+972	uom_dst_id	В Uom
+975	in_order_type	Тип заказа
+977	in_order_none	Без перезаказа
+978	in_order_minmax	Мин Макс
+979	in_order_rp	Точка перезаказа
+980	in_order_demand	По требованию
+983	in_category	Категория
+985	icg_part	Часть
+986	icg_tool	Инструмент
+989	in_notification	Уведомление
+990	in_notify_none	Никто
+991	in_notify_email	Email
+992	in_notify_sms	SMS
+995	in_order_gen	Создание заказа
+996	inog_manual	Руководство
+997	inog_auto	Автоматический
+1000	in_valuation_type	Тип оценки
+1002	inv_avg	Средняя стоимость
+1003	inv_fifo	FIFO
+1004	inv_lifo	LIFO
+1007	in_checkout_to	Проверка к
+1009	ict_wo	Порядок работы
+1010	ict_user	Пользователь
+1011	ict_asset	Актив
+1012	ict_project	Проект
+1015	in_tran_type	Тип операции
+1017	itt_checkout	Проверка
+1018	itt_return	Возврат
+1019	itt_receive	Получение
+1020	itt_physical	Физический подсчет
+1021	itt_move	Двигаться
+1022	itt_checkin	Регистрация
+1025	in_receive_from	Получить от
+1027	irf_po	Заказ на покупку
+1028	irf_credit	Покупка кредитной картой
+1029	irf_other	Другой
+1032	in_stock_type	Тип запаса
+1033	ist_stock	Запас
+1034	ist_non_stock	Нет в наличии
+1035	ist_other	Другой
+1038	in_abc	класс ABC
+1039	in_abc_a	А
+1040	in_abc_b	Б
+1041	in_abc_c	С
+1044	in_vt_checkout_loc	Проверка
+1045	checkout_to	Проверка к
+1046	stock_qty	Кол-во на складе
+1047	checkout_user	Проверка пользователя
+1049	in_vt_return_checkout_to	Возврат
+1050	return_from	Возврат из
+1051	return_user	Возврат пользователя
+1053	in_vt_return_part	Возвратная часть
+1054	in_tran_checkout	Проверка тран.
+1055	qty_to_return	Кол-во для возврата
+1056	qty_checked_out	Кол-во выдано
+1057	checkout_note	Примечание проверки
+1059	in_vt_return_tool	Возвратный инструмент
+1060	checkout_time	Время выезда
+1061	return_time	Время возврата
+1062	rent_total	Стоимость аренды
+1063	rent_hours	Часы арендв
+1065	in_vt_physical	Физический подсчет
+1066	qty_new	Новое кол-во
+1067	user_counted	Пользователь подсчитан
+1069	in_vt_move	Движение склада
+1070	qty_to_move	Кол-во для перемещения
+1071	loc_to_move	Перейти к
+1072	user_moved	Пользователь перемещен
+1074	in_vt_checkin	Регистрация
+1075	qty	Кол-во
+1077	in_vt_receive_select	Получено от
+1079	in_vt_receive	Получить информацию
+1080	receipt_no	№ квитанции.
+1081	qty_to_receive	Кол-во для получения
+1083	in_vt_receive_qty	Получить на склад
+1084	qty_to_receive	Кол-во для получения
+1085	qty_remaining	Оставшееся кол-во
+1087	in_vt_qty_checkout	Кол-во при оформлении заказа
+1088	qty_to_checkout	Кол-во для оформления заказа
+1094	view_meter_schedule	График измерений
+1095	view_pm_season	PM вечера
+1097	pm_list	PM список
+1098	pm_lookup	PM поиск
+1100	tab_pm_main	Основной
+1101	tab_pm_asset	Актив
+1102	tab_pm_labor	Труд
+1103	tab_pm_material	Материал
+1104	tab_pm_step	Шаг
+1105	tab_pm_downtime	Время простоя
+1106	tab_pm_audit	Аудит
+1107	tab_pm_dependency	Зависимость
+1108	tab_pm_document	Документ
+1109	tab_pm_misc	Разное
+1112	pm	PM
+1113	pm_no	PM №.
+1114	duration_hours	Продолжительность (часы)
+1115	release_schedule	График релизов
+1116	labor_hours	Рабочее время
+1117	downtime_hours	Часы простоя
+1118	pm_description	Описание
+1121	pm_labor	Труд
+1122	crew_size	Размер команды
+1125	pm_tool	PM инструмент
+1126	qty	Кол-во
+1129	pm_part	PM часть
+1132	pm_downtime	Время простоя
+1135	pm_step	PM шаг
+1138	pm_safety	PM Безопасность
+1141	pm_doc	PM документ
+1144	pm_audit	PM аудит
+1146	audit_user_id	Пользователь проверен
+1149	pm_comment	Комментарий
+1153	pm_asset	PM актив
+1155	last_released	Последний выпуск
+1156	last_closed	Последнее закрытие
+1157	next_due_date	Следующий срок сдачи
+1158	release_count	Количество выпусков
+1161	pm_meter	PM измерение
+1163	release_by_meter	Выпуск по замерам
+1164	reading_released	Чтение выпущено
+1165	reading_interval	Интервал чтения
+1166	copy_to_wo	Копировать в WO
+1169	pm_season	PM Сезон
+1172	pm_dependency	PM зависимость
+1174	child_pm_id	Детский PM №.
+1178	pm_release_type	Тип выпуска
+1180	pm_release_fixed	Fixed
+1181	pm_release_floating	Floating
+1182	pm_release_other	Другой
+1185	pm_schedule_type	Тип расписания
+1187	pm_schedule_time	По времени
+1188	pm_schedule_meter	По измерению
+1189	pm_schedule_timeandmeter	По времени и измерению
+1190	pm_schedule_other	Другой
+1193	pm_dependency_type	Тип зависимости
+1195	pm_dependency_before	Выпустить раньше
+1196	pm_dependency_after	Выпустить после
+1197	pm_dependency_donotrelease	Не выпускать
+1200	pm_dependency_scope	Область зависимости
+1202	pm_dependency_scope_same	Тот же актив
+1203	pm_dependency_scope_all	Все активы
+1207	pm_status	Состояние
+1209	pm_status_active	Активный
+1210	pm_status_inactive	Неактивный
+1216	tab_project_main	Основной
+1217	tab_project_detail	Деталь
+1218	tab_project_subproject	Подпроект
+1219	tab_project_wo	заказ на работу
+1221	sec_project_codes	Коды
+1222	sec_project_cost	Расходы
+1224	project_list	Список проектов
+1227	project	Проект
+1228	project_no	Проект
+1229	parent_project	Родительский проект
+1230	percent_done	% завершения
+1231	sched_end_time	Окончание расписания
+1232	actual_end_time	Фактический конец
+1233	actual_hours	Фактические часы
+1234	project_comment	Комментарий
+1237	project_type	Тип проекта
+1238	type_project	Тип
+1242	project_priority	Приоритет
+1243	pjp_p1	P1
+1244	pjp_p2	P2
+1245	pjp_p3	P3
+1246	pjp_p4	P4
+1247	pjp_p5	P5
+1250	project_status	Состояние
+1251	pjs_active	Активный
+1252	pjs_delayed	Отложенный
+1253	pjs_cancelled	Отменено
+1254	pjs_complete	Полный
+1259	po_open_forms	Открыть
+1261	sec_po_vendor	Продавец
+1262	sec_po_buyer	Покупатель
+1263	sec_po_cost	Расходы
+1265	tab_po_main	Основной
+1266	tab_po_item	Предметы
+1268	po_reopen_po	Открыть заново
+1269	po_view_status_log	Журнал состояния
+1271	po_list	список заказов
+1272	po_mine	Мои заказы
+1273	po_mine_list	Мои заказы
+1275	tax_code_list	Список налоговых кодов
+1276	tab_tax_code	Налоговый код
+1278	sec_po_vendor	Продавец
+1279	sec_po_buyer	Покупатель
+1281	form_po_edit	Редактировать заказ на покупку
+1282	form_po_delete	Удалить заказ на покупку
+1283	po_reopen_not_closed	Состояние заказа - не закрыт. Его нельзя открыть повторно.
+1284	po_closed_no_edit	Заказ закрыт. Вам необходимо снова открыть его для редактирования.
+1285	po_submitted_no_delete	Заказ на покупку отправлен, поэтому его нельзя удалить.
+1286	po_submitted_no_void	Заказ на поставку представлен таким образом, что его невозможно аннулировать.
+1288	po_status_change_not_allowed	Изменение состояния заказа не допускается.
+1289	po_approval_level_not_sufficient	Ваш уровень утверждения заказа на поставку недостаточен для внесения этого изменения.
+1292	po_add_item	Добавить элемент
+1293	po_remove_item	Убрать предмет
+1296	tax_code	Налоговый код
+1297	tax_rate_total	Ставка налога
+1300	tax_rate	Ставка налога
+1303	po_address	Адрес
+1304	type_po_address	Тип
+1307	po_address_type	Тип
+1310	po	Заказ на покупку
+1311	po_no	Заказ №.
+1312	buyer_id	Покупатель
+1313	buyer_name	Имя покупателя
+1314	buyer_phone	Телефон
+1315	po_date	Дата заказа на поставку
+1316	vendor_addr	Адрес продавца.
+1317	vendor_contact_id	Контакт поставщика
+1318	vendor_contact_phone	Телефон
+1319	shipping_addr_id	Адрес доставки.
+1320	billing_addr_id	Платежный адрес.
+1321	po_item_total	Всего позиций
+1322	tax_charge	Налог
+1323	total_charge	Общий
+1324	po_comment	Комментарий
+1325	po_next_user	Следующий назначен
+1326	po_next_note	Примечание к заданию
+1329	po_item	Элементы
+1330	line_no	Линия
+1331	in_id	Элемент
+1332	qty_received	Кол-во получено
+1335	po_status_log	Журнал состояния
+1339	po_status	Состояние
+1340	po_status_new	Новый
+1341	po_status_pre	Предварительно одобрен
+1342	po_status_approved	Одобренный
+1343	po_status_voided	аннулирован
+1344	po_status_submitted	Поданный
+1345	po_status_acked	Подтверждено
+1348	po_state	Состояние
+1349	po_state_open	Открыть
+1350	po_state_reopen	Открыть заново
+1351	po_state_closed	Закрыто
+1354	po_approval_level	утверждение заказа
+1355	po_level_none	Нет одобрения
+1356	po_level_1	Уровень 1
+1357	po_level_2	Уровень 2
+1358	po_level_3	Уровень 3
+1359	po_level_4	Уровень 4
+1361	po_level_unlimited	Безлимитный
+1362	po_level_amount	Всего заказов
+1365	po_addr_type	Тип
+1366	pat_billing	Биллинг
+1367	pat_shipping	Перевозки
+1368	pat_both	Оба
+1371	shipping_type	Тип доставки
+1372	shipping_ground	Земля
+1373	shipping_express	Выражать
+1376	shipping_term	Условия доставки
+1377	shipping_fobo	FOB происхождения
+1378	shipping_fobd	FOB пункт назначения
+1381	payment_term	Условия оплаты
+1382	payment_net30	Чистая 30
+1383	payment_CBS	Наличными перед отправкой
+1388	rcm_failure_list	Список отказов
+1390	rcm_view_part	Посмотреть часть
+1392	tab_rcm_main	Основной
+1393	tab_rcm_action	Действие
+1394	tab_rcm_consequence	Последствие
+1397	rcm_failure	Отказ
+1398	failure	Отказ
+1399	is_evident	очевидный
+1400	failure_description	Описание
+1403	rcm_action	Действие
+1404	action	Действие
+1405	cause	Причина
+1406	action_description	Описание
+1409	rcm_action_part	Часть
+1412	rcm_consequence	Последствие
+1413	consequence	Последствие
+1414	consequence_description	Описание
+1417	rcm_function	Функция
+1418	fn_name	Функция
+1419	function_description	Описание
+1422	rcm_template	RCM шаблон
+1423	template	RCM шаблон
+1426	rcm_consequence_type	Тип
+1428	rct_safety	Безопасность
+1429	rct_environment	экзогенный
+1430	rct_operation	Оперативный
+1431	rct_economic	Экономичный
+1434	rcm_cause_type	Тип причины
+1436	rcs_mechanical	Механический
+1437	rcs_electrical	Электрический
+1438	rcs_other	Другой
+1441	rcm_pm_policy	PM Политика
+1443	rpp_rtf	Неудачный запуск
+1444	rpp_pm	PM
+1446	asset_failure	Отказ
+1447	failure	Отказ
+1449	asset_action	Действие
+1450	action	Действие
+1455	tab_req_main	Основной
+1456	tab_req_item	Предметы
+1458	req_reopen_req	Открыть заново
+1459	req_view_status_log	Журнал состояния
+1461	requisition_list	Список заявок
+1463	sec_requisition_codes	Коды
+1464	sec_requisition_cost	Расходы
+1466	req_reopen_not_closed	Состояние - заявка не закрыта. Ее нельзя открыть повторно.
+1467	req_closed_no_edit	Заявка закрыта. Вам необходимо снова открыть его для редактирования.
+1468	req_item_on_po_no_deletion	Этот товар находится на PO. Его нельзя удалить.
+1469	req_on_po_no_void	Эта заявка находится на PO, поэтому ее нельзя аннулировать.
+1471	req_item_on_po_no_change	Товар находится в PO, поэтому изменение не допускается.
+1473	req_status_change_not_allowed	Изменение состояния заявки не допускается.
+1474	req_approval_level_not_sufficient	Ваш уровень одобрения заявки недостаточен для внесения этого изменения.
+1477	requisition	Заявка
+1479	form_req_edit	Редактировать заявку
+1481	req_no	Запрос №
+1482	request_user_id	Запрошенный Пользователь
+1483	request_time	Запрошенное время
+1484	req_total	Итого потребности
+1485	due_date	Срок оплаты
+1486	req_next_user	Следующий назначен
+1487	req_next_note	Примечание к заданию
+1488	req_description	Описание
+1491	req_status_log	Журнал состояния
+1493	from_state_id	Из состояния
+1494	to_state_id	В состояние
+1497	req_item	Требуемые элементы
+1501	req_approval_level	Требуемое одобрение
+1502	req_level_none	Нет одобрения
+1503	req_level_1	Уровень 1
+1504	req_level_2	Уровень 2
+1505	req_level_3	Уровень 3
+1506	req_level_4	Уровень 4
+1508	req_level_unlimited	Безлимитный
+1509	req_level_amount	Итого потребности
+1512	req_priority	Приоритет
+1513	reqp_emergency	Чрезвычайная ситуация
+1514	reqp_safety	Безопасность
+1515	reqp_operation	Операция
+1516	reqp_other	Другой
+1519	req_status	Состояние
+1520	req_status_new	Новый
+1521	req_status_open	Открыть
+1522	req_status_pre	Предварительно одобрен
+1523	req_status_approved	Одобренный
+1524	req_status_voided	аннулирован
+1527	req_state	Состояние
+1528	req_state_open	Открыть
+1529	req_state_reopen	Открыть заново
+1530	req_state_closed	Закрыто
+1533	req_source	Источник
+1534	req_source_auto	Автоматическое изменение порядка
+1535	req_source_wo	заказ на работу
+1536	req_source_other	Другой
+1539	req_on_po	Запрос на PO
+1540	req_on_po_none	Никто
+1541	req_on_po_partly	Частично на PO
+1542	req_on_po_all	Все на PO
+1547	err_sched_max_days	Диапазон расписания превышает {0} дней. Используйте диапазон меньше максимального.
+1549	sched_by	Расписание по
+1550	sched_by_user	Расписание по пользователю
+1551	sched_by_team	Расписание по команде
+1554	shift	Сдвиг
+1555	total_hours	Все часы
+1556	sched_hours	Часы по расписанию
+1557	other_hours	Другие часы
+1559	shift_1	Смена 1 (8:00–17:00)
+1560	shift_2	Смена 2 (18:00 - 3:00)
+1563	sched_shutdown	График отключения
+1566	sched_user	Расписание пользователя
+1568	sched_date	Дата
+1569	hours_to_sched	Часы по расписанию
+1570	hours_sched	Запланированное
+1572	sched_vt_by_user	Расписание по пользователю
+1573	sched_vt_by_team	Расписание по команде
+1578	tab_training_main	Основной
+1579	tab_training_user	Пользователь
+1581	training_list	Список тренировок
+1582	training_codes	Коды
+1585	training	Обучение
+1586	instructor_user_id	Пользователь-инструктор
+1587	instructor_contact_id	Контакты инструктора
+1588	training_description	Описание
+1591	training_user	Обучение пользователя
+1594	training_status	Состояние
+1597	training_certificate	Сертификат
+1598	certificate	Сертификат
+1599	days_valid	Дни действительны
+1600	certificate_description	Описание
+1603	training_course_type	Тип курса
+1604	course_type	Тип
+1607	training_course	Курс
+1608	course	Курс
+1609	course_description	Описание
+1612	training_status	Состояние
+1613	trns_complete	Завершено
+1614	trns_incomplete	Незавершено
+1615	trns_failed	Неуспешно
+1621	wo_material_not_zero_nodel	Эта запись содержит информацию об использовании. Его нельзя удалить.
+1622	form_wo_edit	Редактирование заказа
+1623	wo_closed_no_edit	Заказ на работу закрыт. Чтобы отредактировать рабочий заказ, необходимо повторно открыть его.
+1624	wo_reopen_not_closed	Заказ на работу не закрыт. Его нельзя открыть повторно.
+1626	tab_wo_main	Основной
+1627	tab_wo_instruction	Инструкция
+1628	tab_wo_step	Шаги
+1629	tab_wo_labor	Труд
+1630	tab_wo_part	Часть
+1631	tab_wo_tool	Инструмент
+1632	tab_wo_downtime	Время простоя
+1633	tab_wo_meter	Метр
+1634	tab_wo_misc	Разное
+1635	tab_wo_comment	Комментарии
+1636	tab_wo_document	Документ
+1637	tab_wo_status	Состояние
+1639	sec_wo_failure	Отказ
+1640	sec_wo_origin	Происхождение
+1641	sec_wo_assignment	Назначение
+1642	sec_wo_schedule	Расписание
+1643	sec_wo_completion	Завершение
+1644	sec_wo_accept	Принятие
+1645	sec_wo_codes	Коды
+1646	sec_wo_cost	Расходы
+1647	sec_wo_downtime	Время простоя
+1649	wo_downtime	Время простоя
+1651	wo_req	Запрос на работу
+1652	wo_new_wo	Новый
+1653	wo_new_req	Новый запрос
+1654	wo_new_no_pm	Новый заказ на работу
+1655	wo_new_pm	Новое от PM
+1656	wo_mine	Мои заказы
+1657	wo_all	Список заказов
+1659	wo_open_forms	Открыть
+1660	wo_reopen_wo	Повторно открыть заказ на работу
+1661	wo_view_status_log	Журнал состояния
+1662	wo_my_assignment	Мое задание
+1663	wo_my_request	Мой запрос
+1664	wo_my_team	Мое командное задание
+1667	wo_part_new	Новый
+1668	wo_part_add	Добавить деталь
+1669	wo_part_return	Возвратная часть
+1671	wo_tool_new	Новый
+1672	wo_tool_add	Добавить инструмент
+1673	wo_tool_return	Возвратный инструмент
+1675	wo_tool_checkout	Проверочный инструмент
+1677	wo_meter_new	Новый
+1678	wo_meter_add	Добавить чтение
+1679	wo_meter_history	Просмотр показаний
+1682	wo_category	Категория работы
+1683	woc_emergency	Чрезвычайная ситуация (поломка)
+1684	woc_corrective	Корректирующий
+1685	woc_predictive	Прогнозирующий
+1686	woc_preventive	Профилактический
+1687	woc_detective	Обнаруживаемый
+1690	wo_priority	Приоритет работы
+1691	wop_p1	Угрозы безопасности
+1692	wop_p2	Безопасность имеет значение
+1693	wop_p3	Простой производства
+1694	wop_p4	Обычное обслуживание
+1695	wop_p5	Проект
+1698	wo_resolution	Разрешение
+1699	wor_open	Открыть
+1700	wor_resolved	Решено
+1701	wor_donotfix	Не исправлять
+1702	wor_delayed	Отложенный
+1703	wor_duplicate	Дублировать
+1706	wo_status	Состояние
+1707	wos_new	Новый
+1708	wos_open	Открыть
+1709	wos_scheduled	Запланированное
+1710	wos_wfm	Ждите материала
+1711	wos_inprogress	В ходе выполнения
+1712	wos_complete	Завершенный
+1713	wos_reopen	Открыть заново
+1714	wos_accepted	Принято
+1715	wos_closed	Закрыто
+1718	wo_origin	Происхождение
+1719	woo_request	Тревожный вызов
+1720	woo_pm	PM
+1721	woo_rework	Переработка
+1722	woo_other	Другой
+1725	wo_time_type	Тип времени
+1726	wott_work	Работа
+1727	wott_travel	Путешествовать
+1728	wott_wfp	Ждите запчастей
+1729	wott_other	Другой
+1732	downtime_type	Время простоя
+1733	wodt_planned	Планируется
+1734	wodt_emergency	Чрезвычайная ситуация
+1735	wodt_site	Закрытие сайта
+1738	wo_gen_status	Состояние
+1739	wgn_started	Начал
+1740	wgn_failed	Неуспешный
+1741	wgn_complete	Завершенный
+1744	wo_generation	WO журнал генерации
+1745	wo_count	Сгенерировано
+1746	to_date	Создано для
+1747	wogen_status	Состояние
+1748	wogen_start_time	Время начала
+1749	wogen_end_time	Время окончания
+1750	wogen_user_id	Имя пользователя
+1753	wo_pm_select	Выберите PM
+1755	wps_asset	PM по активу
+1756	wps_any	Любой PM
+1759	craft	Ремесло
+1760	craft_list	Ремесло
+1762	rate	Ставка
+1763	ot_factor	O.T. фактор
+1766	workorder	Порядок работы
+1767	wo_no	WO №
+1768	wo_description	Описание
+1769	asset_note	Примечание об активе
+1770	orig_contact_id	Запрошен контакт
+1771	orig_user_id	Пользователь запросил
+1772	orig_time	Запрошенное время
+1773	time_needed	Необходимое время
+1774	assigned_team_id	Команда назначена
+1775	assigned_to_id	Назначено
+1776	assigned_by_id	Назначено
+1777	assigned_time	Назначенное время
+1779	rework_wo_id	Переделки WO №
+1780	parent_wo_id	Родитель WO №
+1781	duplicate_wo_id	Дубликат WO №
+1783	planned_start_time	Планирование начато
+1784	sched_start_time	Начало по расписанию
+1785	sched_start_shift_id	Сдвиг, чтобы начать
+1786	actual_start_time	Время началось
+1787	actual_start_shift_id	Смена началась
+1789	planned_finish_time	Планируемое окончание
+1790	sched_finish_time	Запланированное окончание
+1791	sched_finish_shift_id	Сдвиг окончания
+1792	actual_finish_time	Время закончилось
+1793	actual_finish_shift_id	Смена закончена
+1794	finish_by_id	Закончено
+1795	finish_note	примечание Завершения
+1797	accepted_by_id	Принят
+1798	accepted_time	Время принято
+1799	accept_note	Принять заметку
+1801	close_by_id	Закрыто
+1802	close_time	Время закрыто
+1804	planned_labor_hours	Запланированные часы
+1805	sched_labor_hours	Запланированные часы
+1806	actual_labor_hours	Фактические часы
+1808	labor_cost	Труд
+1809	material_cost	Материал
+1810	total_cost	Общий
+1812	planned_downtime_hours	Планируемый простой
+1813	actual_downtime_hours	Фактическое время простоя
+1815	modified_id	Модифицирован
+1816	created_id	Сделано
+1817	modified_time	Последнее изменение
+1818	created_time	Время создания
+1821	wo_step	Этапы работы
+1822	seq	Последовательность №
+1823	completed	Завершенный
+1824	completed_by_id	Завершено
+1825	completed_time	Время завершено
+1826	step_description	Описание
+1829	wo_safety	Примечания по безопасности
+1830	followed	Следующий
+1831	followed_by_id	Со следующим
+1832	safety_description	Описание
+1835	wo_doc	Документы
+1838	wo_attachment	Вложения
+1839	file_url	Файл
+1842	wo_comment	Комментарии
+1843	comment	Комментарий
+1846	wo_status_audit	История состояний
+1849	wo_labor	Труд
+1850	staff_id	Персонал
+1851	hours	Часы
+1852	ot_hours	O.T. часы
+1853	line_cost	Стоимость линии
+1856	wo_tool	Инструмент
+1857	tool_in_id	инструмент №
+1858	qty_checkout	Проверено
+1859	qty_return	Вернулся
+1862	wo_part	Часть
+1863	part_in_id	деталь №
+1864	qty_used	Кол-во использованного
+1867	wo_meter	Измерение
+1868	reading	Чтение
+1871	wo_planned_labor	Плановый труд
+1874	wo_planned_tool	Планируемый инструмент
+1877	wo_planned_part	Планируемая часть
+1880	wo_planned_downtime	Планируемый простой
+1883	wo_sched_labor	Запланированный труд
+1886	wo_status_log	Журнал состояния
+1887	to_status_id	К состоянию
+1888	from_status_id	Из состояния
+1889	changed_by_id	Изменено
+1892	wo_vt_new_pm	Новое от PM
+1894	wo_vt_part_checkout	Проверка детали
+1895	wo_vt_part_return	Возврат части
+1900	group_module_list	Групповые модули
+1902	vt_module_list	Модули
+1903	module	Модуль
+1905	vt_form_list	Формы
+1906	form	Форма
+1907	table_id	Таблица
+1908	table_name	Имя таблицы
+1910	vt_table_list	Список таблиц
+1911	vt_dropdown_list	Выпадающий список
+1914	vt_field	Поле таблицы
+1915	field_name	Имя поля
+1916	field_type	Тип
+1917	field_label	Этикетка
+1918	field_length	Длина
+1919	required	Необходимый
+1920	lookup	Искать
+1923	vt_field_type	Тип поля
+1924	vt_field_varchar	Varchar (требуется длина)
+1925	vt_field_text	Text (длинное текстовое поле)
+1926	vt_field_guid	Guid (Varchar (36))
+1927	vt_field_boolean	Boolean
+1928	vt_field_tinyint	Tinyint
+1929	vt_field_integer	Integer
+1930	vt_field_double	Double
+1931	vt_field_date	Date
+1932	vt_field_datetime	Datetime
+1933	vt_field_sys_currency	Системная валюта
+1934	vt_field_currency	Другая валюта
+1937	vt_dropdown_use	Падать
+1938	dropdown_name	Падать
+1939	label	Label
+1940	dropdown_fixed	Fixed
+1943	vt_label	Label
+1944	label_id	Label Id
+1949	key_customize	Настроить
+1952	recycle_bin	Корзина
+1953	rb_desc	Описание

@@ -1,0 +1,45 @@
+Unpack CalemEAM and set permissions
+ 
+
+CalemEAM is a self-contained application that is nested inside the LAMP stack at /opt/lampp/htdocs.  The CalemEAM package that was downloaded earlier needs to be extracted to this directory and then the proper permissions set for Linux.  The following steps will move CalemEAM into place and set the configuration requirements.
+1.)   Navigate to /opt/lampp/htdocs and extract the CalemEAM gzip file:
+
+cd /opt/lampp/htdocs
+tar xzvf /root/Downloads/CalemEAM_R2.1e.tar.gz
+
+2.)   Now the proper permissions have to be set on the directory in order for things to operate the way we expect.  We also need to copy the CalemEAM Apache httpd configuration file into the proper location.  But first, you need to determine what user and group you want to use to run Apache.  The default is user daemon and group daemon.  For the purposes of this guide, I am taking the defaults and just using those.  If you want to change the user and groups within Apache you can do so. 
+Perform the following to set the permissions and copy the httpd file from within the /opt/lampp/htdocs directory.
+
+cd /opt/lampp/htdocs
+chown -R daemon:daemon CalemEAM/
+chown 766 CalemEAM
+cd CalemEAM
+chmod –R 777 *
+
+Now copy the CalemEAM httpd configuration file into place:
+cp CalemEAM/etc/httpd-calemeam.conf /opt/lampp/etc/extra
+vim /opt/lampp/etc/httpd.conf
+
+Append the following to the end of the file:
+# CalemEAM
+Include "/opt/lampp/htdocs/CalemEAM/etc/httpd-calemeam.conf"
+
+Configure the php.ini file for error reporting
+This is a very important step and if it is skipped can cause all kinds of errors when you try to log on to the new system.  Perform the following to edit the php.ini file:
+1.)   Edit the /opt/lampp/etc/php.ini file
+
+vim /opt/lampp/etc/php.ini
+
+Locate and edit the following line from this:
+
+error_reporting=E_ALL & ~E_DEPRECATED & ~E_STRICT
+
+To this:
+
+error_reporting=E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED
+error_reporting=E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT
+
+
+You can launch CalemEAM with a link provided at the end of the installation program to log in. A test admin user is installed by default. The user name/password are: admin/admin_password.
+
+ 
