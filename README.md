@@ -147,6 +147,7 @@ $lang=isset($_REQUEST['lang'])?$_REQUEST['lang']:null;
 | ------ | ------ | ------ |
 | После выполнения скрипта deploy.sh заявленные файлы не генерируются. | Установить в файле deploy.sh переменную CALEM_BUILD равной 1. | надо запускать - **./deploy.sh build** |
 | При входе в программу появляется ошибка pattern is undefined. | В скрипте CalemEAM\client\launchpad\resource\Ajax.js найти функцию AjxDateFormat (строка 1233): function AjxDateFormat(pattern) и перед циклом for (строка 1244) добавить код: pattern=I18nMsg.formatDateShort; | паттерн там выбираться должен - походу это ни на что не влияет |
+
 **✨© Елена в  ✨**
 
 
